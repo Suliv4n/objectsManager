@@ -40,11 +40,5 @@ public class ApplicationTest {
         assertThat(contentAsString(html)).contains("Your new application is ready.");
     }
 
-    @Test
-	public void NomObjet(){
-	Objet o = new Objet("Arme");
-	assertThat(o.getNom()).isEqualTo("Arme");
-    }
-
 
 }
