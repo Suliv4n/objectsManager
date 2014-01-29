@@ -35,16 +35,22 @@ public class ApplicationTest {
 
     @Test
     public void renderTemplate() {
-        Content html = views.html.index.render("Your new application is ready.");
+        Content html = views.html.index.r ender("Your new application is ready.");
         assertThat(contentType(html)).isEqualTo("text/html");
         assertThat(contentAsString(html)).contains("Your new application is ready.");
     }
 
     @Test
-	public void NomObjet(){
-	Objet o = new Objet("Arme");
-	assertThat(o.getNom()).isEqualTo("Arme");
+    public void nomObjet(){
+		Objet o = new Objet("Arme");
+		assertThat(o.getNom()).isEqualTo("Arme");
     }
+    
+    @Test
+    public void prixObjet(){
+			Objet o = new Objet(12);
+			assertThat(o.getPrix()).isEqualTo(12);
+	}
 
 
 }
