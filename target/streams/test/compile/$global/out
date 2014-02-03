@@ -2,11 +2,11 @@
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/home/becu/Projet_object/objectsManager/test/ApplicationTest.java)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mModified external sources: Set(Inventaire)[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/becu/Projet_object/objectsManager/test/ApplicationTest.java)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
@@ -16,11 +16,11 @@
 [0m[[0minfo[0m] [0mCompiling 1 Java source to /home/becu/Projet_object/objectsManager/target/scala-2.10/test-classes...[0m
 [0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
 [0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
-[0m[[0mdebug[0m] [0mForking javac: javac @/tmp/sbt_728df976/argfile[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @/tmp/sbt_98e5f7d7/argfile[0m
 [0m[[0mdebug[0m] [0mjavac returned exit code: 0[0m
-[0m[[0mdebug[0m] [0mJava compilation took 1.016955522 s[0m
-[0m[[0mdebug[0m] [0mJava analysis took 0.070259018 s[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/becu/Projet_object/objectsManager/test/ApplicationTest.java)[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.93073747 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.075303329 s[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set()[0m
 [0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
