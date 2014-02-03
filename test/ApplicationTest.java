@@ -49,5 +49,6 @@ public class ApplicationTest {
     @Test
     public void Personne(){
 		Personne p = new Personne("Bob");
+		assertThat(p.getNom()).isEqualTo("Bob");
 	}	
 }
