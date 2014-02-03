@@ -1,6 +1,6 @@
-// @SOURCE:/home/becu/Projet_object/objectsManager/conf/routes
+// @SOURCE:/home/bochant/play/samples/java/objman/conf/routes
 // @HASH:9c24f09449355737d0bfbe9ca53280febbd777c7
-// @DATE:Wed Jan 29 18:04:09 CET 2014
+// @DATE:Mon Feb 03 09:17:31 CET 2014
 
 package controllers;
 
