@@ -1,30 +1,26 @@
-[0m[[0mdebug[0m] [0mInvalidating /home/becu/Téléchargements/play-2.2.1/repository/local/org.easytesting/fest-assert/1.4/jars/fest-assert.jar: class org.fest.assertions.StringAssert now provided by /home/bochant/play/repository/local/org.easytesting/fest-assert/1.4/jars/fest-assert.jar[0m
-[0m[[0mdebug[0m] [0mInvalidating /home/becu/Téléchargements/play-2.2.1/repository/local/com.typesafe.play/play-test_2.10/2.2.1/jars/play-test_2.10.jar: class play.test.Helpers now provided by /home/bochant/play/repository/local/com.typesafe.play/play-test_2.10/2.2.1/jars/play-test_2.10.jar[0m
-[0m[[0mdebug[0m] [0mInvalidating /home/becu/Téléchargements/play-2.2.1/repository/local/com.typesafe.play/play_2.10/2.2.1/jars/play_2.10.jar: class play.libs.F now provided by /home/bochant/play/repository/local/com.typesafe.play/play_2.10/2.2.1/jars/play_2.10.jar[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
-[0m[[0mdebug[0m] [0m	removed:Set(/home/becu/Projet_object/objectsManager/test/IntegrationTest.java, /home/becu/Projet_object/objectsManager/test/ApplicationTest.java)[0m
-[0m[[0mdebug[0m] [0m	added: Set(/home/bochant/play/samples/java/objman/test/IntegrationTest.java, /home/bochant/play/samples/java/objman/test/ApplicationTest.java)[0m
-[0m[[0mdebug[0m] [0m	modified: Set()[0m
-[0m[[0mdebug[0m] [0mRemoved products: Set(/home/becu/Projet_object/objectsManager/target/scala-2.10/test-classes/IntegrationTest$1.class, /home/becu/Projet_object/objectsManager/target/scala-2.10/test-classes/IntegrationTest.class, /home/becu/Projet_object/objectsManager/target/scala-2.10/test-classes/ApplicationTest.class)[0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/home/bochant/play/samples/java/objman/test/ApplicationTest.java)[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mModified external sources: Set()[0m
-[0m[[0mdebug[0m] [0mModified binary dependencies: Set(/home/becu/Téléchargements/play-2.2.1/repository/local/org.easytesting/fest-assert/1.4/jars/fest-assert.jar, /home/becu/Téléchargements/play-2.2.1/repository/local/com.typesafe.play/play-test_2.10/2.2.1/jars/play-test_2.10.jar, /home/becu/Téléchargements/play-2.2.1/repository/local/com.typesafe.play/play_2.10/2.2.1/jars/play_2.10.jar)[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/becu/Projet_object/objectsManager/test/IntegrationTest.java, /home/becu/Projet_object/objectsManager/test/ApplicationTest.java, /home/bochant/play/samples/java/objman/test/IntegrationTest.java, /home/bochant/play/samples/java/objman/test/ApplicationTest.java)[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/bochant/play/samples/java/objman/test/ApplicationTest.java)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m	product: Set(/home/becu/Projet_object/objectsManager/test/IntegrationTest.java, /home/becu/Projet_object/objectsManager/test/ApplicationTest.java)[0m
-[0m[[0mdebug[0m] [0m	binary dep: Set(/home/becu/Projet_object/objectsManager/test/IntegrationTest.java, /home/becu/Projet_object/objectsManager/test/ApplicationTest.java)[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/becu/Projet_object/objectsManager/test/IntegrationTest.java, /home/becu/Projet_object/objectsManager/test/ApplicationTest.java, /home/bochant/play/samples/java/objman/test/IntegrationTest.java, /home/bochant/play/samples/java/objman/test/ApplicationTest.java)[0m
-[0m[[0mdebug[0m] [0mRecompiling all 2 sources: invalidated sources (4) exceeded 50.0% of all sources[0m
-[0m[[0minfo[0m] [0mCompiling 2 Java sources to /home/bochant/play/samples/java/objman/target/scala-2.10/test-classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/bochant/play/samples/java/objman/test/ApplicationTest.java)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to /home/bochant/play/samples/java/objman/target/scala-2.10/test-classes...[0m
 [0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
 [0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
-[0m[[0mdebug[0m] [0mForking javac: javac @/tmp/sbt_9d9bcd32/argfile[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @/tmp/sbt_86e106dd/argfile[0m
 [0m[[0mdebug[0m] [0mjavac returned exit code: 0[0m
-[0m[[0mdebug[0m] [0mJava compilation took 1.059896387 s[0m
-[0m[[0mdebug[0m] [0mJava analysis took 0.020435585 s[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/becu/Projet_object/objectsManager/test/ApplicationTest.java, /home/bochant/play/samples/java/objman/test/IntegrationTest.java, /home/becu/Projet_object/objectsManager/test/IntegrationTest.java, /home/bochant/play/samples/java/objman/test/ApplicationTest.java)[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.998888456 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.001785299 s[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set()[0m
 [0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
