@@ -43,6 +43,7 @@ public class ApplicationTest {
     @Test
     public void Personne(){
 		Personne p = new Personne("Bob","Inventaire");
-		assertThat(p.getNom()).isEqualTo("Bob","Inventaire");
+		assertThat(p.getNom()).isEqualTo("Bob");
+		assertThat(p.getInventaire()).isEqualTo("Inventaire");
 	}	
 }
