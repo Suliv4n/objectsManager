@@ -53,12 +53,12 @@ public class ApplicationTest {
     }
     @Test
 	public void NomObjetInventaire(){
-	Inventaire i= new Inventaire();
+	Inventaire i= new Inventaire(20);
 	assertThat(i.getObjetInventaire(0)).isEqualTo("objet");
     }
    @Test
 	public void NomObjetInventaire2(){
-	Inventaire i= new Inventaire();
+	Inventaire i= new Inventaire(20);
 	assertThat(i.getObjetInventaire(1)).isEqualTo("objet2");
     }
 }
