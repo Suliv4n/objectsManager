@@ -39,16 +39,10 @@ public class ApplicationTest {
         assertThat(contentType(html)).isEqualTo("text/html");
         assertThat(contentAsString(html)).contains("Your new application is ready.");
     }
-
-    @Test
-	public void NomObjet(){
-	Objet o = new Objet("Arme");
-	assertThat(o.getNom()).isEqualTo("Arme");
-    }
     
     @Test
     public void Personne(){
-		Personne p = new Personne("Bob");
-		assertThat(p.getNom()).isEqualTo("Bob");
+		Personne p = new Personne("Bob","Inventaire");
+		assertThat(p.getNom()).isEqualTo("Bob","Inventaire");
 	}	
 }
