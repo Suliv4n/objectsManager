@@ -49,6 +49,6 @@ public class ApplicationTest {
     @Test
 	public void TailleInventaire(){
 	Inventaire i = new Inventaire();
-	assertThat(i.getTailleInventaire())isEqualTo(20);
+	assertThat(i.getTailleInventaire()).isEqualTo(20);
     }
 }
