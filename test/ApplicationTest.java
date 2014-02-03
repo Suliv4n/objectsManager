@@ -51,4 +51,9 @@ public class ApplicationTest {
 	Inventaire i = new Inventaire();
 	assertThat(i.getTailleInventaire()).isEqualTo(20);
     }
+    @Test
+	public void NomObjetInventaire(){
+	Inventaire i= new Inventaire();
+	assertThat(i.getObjetInventaire()).isEqualTo("objet");
+}
 }
