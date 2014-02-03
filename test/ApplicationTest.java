@@ -48,8 +48,16 @@ public class ApplicationTest {
     
     @Test
     public void prixObjet(){
-			Objet o = new Objet("Ventilateur",12);
-			assertThat(o.getPrix()).isEqualTo(12);
-			//gezgze
+		Objet o = new Objet("Ventilateur",12);
+		assertThat(o.getPrix()).isEqualTo(12);
 	}
+	
+	@Test
+	public void equipableObjet()
+	{
+		Objet o = new Objet("Gâteau", 5, false);
+		assertThat(o.estEquipable()).isEqualTo(false);
+	}
+	
+	
 }
