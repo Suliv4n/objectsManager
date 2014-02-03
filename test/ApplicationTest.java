@@ -46,5 +46,9 @@ public class ApplicationTest {
 	assertThat(o.getNom()).isEqualTo("Arme");
     }
 
-
+    @Test
+	public void TailleInventaire(){
+	Inventaire i = new Inventaire();
+	assertThat(i.getTailleInventaire())isEqualTo(20);
+    }
 }
