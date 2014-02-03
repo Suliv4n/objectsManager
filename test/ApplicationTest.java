@@ -45,6 +45,9 @@ public class ApplicationTest {
 	Objet o = new Objet("Arme");
 	assertThat(o.getNom()).isEqualTo("Arme");
     }
-
-
+    
+    @Test
+    public void Personne(){
+		Personne p = new Personne("Bob");
+	}	
 }
