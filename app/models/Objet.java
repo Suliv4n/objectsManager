@@ -28,6 +28,6 @@ public class Objet{
 	
 	public boolean estEquipable()
 	{
-		return false;
+		return equipable;
 	}
 }

@@ -57,7 +57,7 @@ public class ApplicationTest {
 	{
 		Objet o = new Objet("Gâteau", 5, false);
 		assertThat(o.estEquipable()).isEqualTo(false);
-		Objet o = new Objet("Epée", 10, true);
+		o = new Objet("Epée", 10, true);
 		assertThat(o.estEquipable()).isEqualTo(true);
 	}
 	
