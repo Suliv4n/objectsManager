@@ -78,12 +78,18 @@ public class ApplicationTest {
 		assertThat(i.getObjetInventaire(1)).isEqualTo("objet2");
     }
     @Test
-	public void AjouterObjetInventaire2(){
+	public void AjouterObjetInventaire(){
 		Inventaire i= new Inventaire(20);
 		i.addObjet("objet3",2);
 		assertThat(i.getObjetInventaire(2)).isEqualTo("objet3");
     }
-
+   
+    @Test
+	public void SupprimerObjetInventaire(){
+		Inventaire i= new Inventaire(20);
+		i.delObjet();
+		assertThat(i.getObjetInventaire(2)).isNull();
+    }
 
    @Test
     public void Personne_(){
