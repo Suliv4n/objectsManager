@@ -39,8 +39,7 @@ public class ApplicationTest {
         assertThat(contentType(html)).isEqualTo("text/html");
         assertThat(contentAsString(html)).contains("Your new application is ready.");
     }
-
-    @Test
+    
     public void nomObjet(){
 		Objet o = new Objet("Arme",15);
 		assertThat(o.getNom()).isEqualTo("Arme");
@@ -72,10 +71,18 @@ public class ApplicationTest {
 		Inventaire i= new Inventaire(20);
 		assertThat(i.getObjetInventaire(0)).isEqualTo("objet");
     }
-   @Test
+    
+    @Test
 	public void NomObjetInventaire2(){
 		Inventaire i= new Inventaire(20);
 		assertThat(i.getObjetInventaire(1)).isEqualTo("objet2");
     }
+
+   @Test
+    public void Personne(){
+		Personne p = new Personne("Bob","Inventaire");
+		assertThat(p.getNom()).isEqualTo("Bob");
+		assertThat(p.getInventaire()).isEqualTo("Inventaire");
+	}	
 
 }
