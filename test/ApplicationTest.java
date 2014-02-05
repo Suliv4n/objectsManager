@@ -39,30 +39,51 @@ public class ApplicationTest {
         assertThat(contentType(html)).isEqualTo("text/html");
         assertThat(contentAsString(html)).contains("Your new application is ready.");
     }
+    @Test
+    public void nomObjet(){
+		Objet o = new Objet("Arme",15);
+		assertThat(o.getNom()).isEqualTo("Arme");
+    }
     
     @Test
-	public void NomObjet(){
-	Objet o = new Objet("Arme");
-	assertThat(o.getNom()).isEqualTo("Arme");
-    }
+    public void prixObjet(){
+		Objet o = new Objet("Ventilateur",12);
+		assertThat(o.getPrix()).isEqualTo(12);
+	}
+	
+	@Test
+	public void equipableObjet()
+	{
+		Objet o = new Objet("Gâteau", 5, false);
+		assertThat(o.estEquipable()).isEqualTo(false);
+		o = new Objet("Epée", 10, true);
+		assertThat(o.estEquipable()).isEqualTo(true);
+	}
+	
 
     @Test
 	public void TailleInventaire(){
-	Inventaire i = new Inventaire(20);
-	assertThat(i.getTailleInventaire()).isEqualTo(20);
+		Inventaire i = new Inventaire(20);
+		assertThat(i.getTailleInventaire()).isEqualTo(20);
     }
     @Test
 	public void NomObjetInventaire(){
-	Inventaire i= new Inventaire(20);
-	assertThat(i.getObjetInventaire(0)).isEqualTo("objet");
-    }
-   @Test
-	public void NomObjetInventaire2(){
-	Inventaire i= new Inventaire(20);
-	assertThat(i.getObjetInventaire(1)).isEqualTo("objet2");
+		Inventaire i= new Inventaire(20);
+		assertThat(i.getObjetInventaire(0)).isEqualTo("objet");
     }
     
     @Test
+	public void NomObjetInventaire2(){
+		Inventaire i= new Inventaire(20);
+		assertThat(i.getObjetInventaire(1)).isEqualTo("objet2");
+    }
+<<<<<<< HEAD
+    
+    @Test
+=======
+
+   @Test
+>>>>>>> 8a4960ea7c6dcfee09cefdc32c58a2c88c70dc73
     public void Personne(){
 		Personne p = new Personne("Bob","Inventaire");
 		assertThat(p.getNom()).isEqualTo("Bob");
