@@ -90,7 +90,15 @@ public class ApplicationTest {
 		i.delObjet(2);
 		assertThat(i.getObjetInventaire(2)).isNull();
     }
+    
+    @Test
+	public void DeplacerObjetInventaire(){
+		Inventaire i= new Inventaire(20);
+		i.deplacerObjet();
+		assertThat(i.getObjetInventaire(1)).isEqualTo("objet3");
+    }
 
+	
    @Test
     public void Personne_(){
 		Personne p = new Personne("Bob","Inventaire");
