@@ -18,6 +18,8 @@ import play.libs.F.*;
 import static play.test.Helpers.*;
 import static org.fest.assertions.Assertions.*;
 
+import models.*;
+
 
 /**
 *
@@ -80,9 +82,9 @@ public class ApplicationTest {
 
    @Test
     public void personne(){
-		Personne p = new Personne("Bob",10);
+		Personne p = new Personne("Bob", 10);
 		assertThat(p.getNom()).isEqualTo("Bob");
-		assertThat(p.getInventaire()).isEqualTo(10);
+		assertThat(p.getInventaire().getTailleInventaire()).isEqualTo(10);
 	}	
 
 }

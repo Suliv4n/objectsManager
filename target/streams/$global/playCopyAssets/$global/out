@@ -1,4 +1,4 @@
 [0m[[0mdebug[0m] [0mCopy play resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/home/bochant/play/samples/java/objman/public/stylesheets/main.css,/home/bochant/play/samples/java/objman/target/scala-2.10/classes/public/stylesheets/main.css)[0m
-[0m[[0mdebug[0m] [0m	(/home/bochant/play/samples/java/objman/public/javascripts/jquery-1.9.0.min.js,/home/bochant/play/samples/java/objman/target/scala-2.10/classes/public/javascripts/jquery-1.9.0.min.js)[0m
-[0m[[0mdebug[0m] [0m	(/home/bochant/play/samples/java/objman/public/images/favicon.png,/home/bochant/play/samples/java/objman/target/scala-2.10/classes/public/images/favicon.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/bourbon/objectsManager/public/stylesheets/main.css,/home/bourbon/objectsManager/target/scala-2.10/classes/public/stylesheets/main.css)[0m
+[0m[[0mdebug[0m] [0m	(/home/bourbon/objectsManager/public/javascripts/jquery-1.9.0.min.js,/home/bourbon/objectsManager/target/scala-2.10/classes/public/javascripts/jquery-1.9.0.min.js)[0m
+[0m[[0mdebug[0m] [0m	(/home/bourbon/objectsManager/public/images/favicon.png,/home/bourbon/objectsManager/target/scala-2.10/classes/public/images/favicon.png)[0m

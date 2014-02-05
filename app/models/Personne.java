@@ -1,17 +1,20 @@
+package models;
+import models.Inventaire;
+
 public class Personne{
 	private String nom;
-	private String inventaire;
+	private Inventaire inventaire;
 	
-	public Personne(String nom, String inventaire){
+	public Personne(String nom, int i){
 			this.nom = nom;
-			this.inventaire = inventaire;
+			this.inventaire = new Inventaire(i);
 	}
 	
 	public String getNom(){
 			return nom;
 	}
 	
-	public String getInventaire(){
+	public Inventaire getInventaire(){
 			return inventaire;
 	}			
 }	
