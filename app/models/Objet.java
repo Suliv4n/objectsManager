@@ -29,6 +29,11 @@ public class Objet{
 		return nom;
     }
     
+    public setEtat(int etat)
+    {
+		this.etat = etat;
+	}
+    
     public int getPrix()
     {
 		return prix;
