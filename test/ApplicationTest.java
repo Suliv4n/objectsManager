@@ -71,4 +71,25 @@ public class ApplicationTest {
 		o.setEtat(Objet.COUPE);
 		assertThat(o.getEtat()).isEqualTo(Objet.COUPE);
 	}
+	
+	@Test
+	public void testActionObjet()
+	{
+		Objet hache = new Objet("Hache",15);
+		Objet arbre = new Objet("Arbre",10);
+		
+		boolean succes = hache.doAction(arbre);
+		
+		assertThat(succes).isEqualTo(true);
+		assertThat(arbre.getEtat()).isEqualTo(Objet.COUPE);
+	
+		Objet tap = new Objet("Tarte au pomme",15);
+		Objet arbre2 = new Objet("Arbre",10);
+		succes = tap.doAction(arbre2);
+		
+		assertThat(succes).isEqualTo(false);
+		assertThat(arbre.getEtat()).isEqualTo(Objet.INTACT);
+		
+		assertThat()
+	}
 }

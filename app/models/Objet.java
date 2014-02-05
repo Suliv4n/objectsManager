@@ -43,4 +43,9 @@ public class Objet{
 	{
 		return equipable;
 	}
+	
+	public boolean doAction()
+	{
+		
+	}
 }
