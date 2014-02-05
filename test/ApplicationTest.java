@@ -80,7 +80,7 @@ public class ApplicationTest {
     @Test
 	public void AjouterObjetInventaire2(){
 		Inventaire i= new Inventaire(20);
-		i.addObjet();
+		i.addObjet("objet3",2);
 		assertThat(i.getObjetInventaire(2)).isEqualTo("objet3");
     }
 

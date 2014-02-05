@@ -3,7 +3,7 @@
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0mTotal for test IntegrationTest[0m
-[0m[[0minfo[0m] [0m[34mFinished in 0.02 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.011 seconds[0m[0m
 [0m[[0minfo[0m] [0m[34m1 tests, 0 failures, 0 errors[0m[0m
 [0m[[0minfo[0m] [0mApplicationTest[0m
 [0m[[0minfo[0m] [0m[32m+[0m NomObjetInventaire2[0m
@@ -19,5 +19,5 @@
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0mTotal for test ApplicationTest[0m
-[0m[[0minfo[0m] [0m[34mFinished in 0.002 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.007 seconds[0m[0m
 [0m[[0minfo[0m] [0m[34m10 tests, 0 failures, 0 errors[0m[0m

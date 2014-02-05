@@ -19,8 +19,8 @@ public class Inventaire {
 	return this.objet[i];
 }
 	
-	public void addObjet(){
-		this.objet[2]="objet3";
+	public void addObjet(String nom, int index){
+		this.objet[index]=nom;
 		}
 }
 
