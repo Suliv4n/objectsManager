@@ -18,7 +18,7 @@ import play.libs.F.*;
 import static play.test.Helpers.*;
 import static org.fest.assertions.Assertions.*;
 
-
+import models.*;
 /**
 *
 * Simple (JUnit) tests that can call all parts of a play app.
@@ -88,13 +88,17 @@ public class ApplicationTest {
 	public void SupprimerObjetInventaire(){
 		Inventaire i= new Inventaire(20);
 		i.delObjet(2);
-		assertThat(i.getObjetInventaire(2)).isNull();
+		assertThat(i.getObjetInventaire(2)).isEqualTo("");
     }
     
     @Test
 	public void DeplacerObjetInventaire(){
 		Inventaire i= new Inventaire(20);
+		i.addObjet("objet1",0);
+		i.addObjet("objet2",1);
+		i.addObjet("objet3",2);
 		i.deplacerObjet();
+
 		assertThat(i.getObjetInventaire(1)).isEqualTo("objet3");
     }
 
