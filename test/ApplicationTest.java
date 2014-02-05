@@ -97,7 +97,7 @@ public class ApplicationTest {
 		i.addObjet("objet1",0);
 		i.addObjet("objet2",1);
 		i.addObjet("objet3",2);
-		i.deplacerObjet();
+		i.deplacerObjet(2,1);
 
 		assertThat(i.getObjetInventaire(1)).isEqualTo("objet3");
     }

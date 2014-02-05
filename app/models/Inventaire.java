@@ -28,11 +28,11 @@ public class Inventaire {
 			this.objet[index]="";
 			
 		}
-	public void deplacerObjet(){
-		String tmp = objet[2];
-		delObjet(2);
-		delObjet(1);
-		addObjet(tmp,1);
+	public void deplacerObjet(int i, int j){
+		String tmp = objet[i];
+		delObjet(i);
+		delObjet(j);
+		addObjet(tmp,j);
 		
 		}
 }
