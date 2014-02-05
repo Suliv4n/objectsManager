@@ -87,7 +87,7 @@ public class ApplicationTest {
     @Test
 	public void SupprimerObjetInventaire(){
 		Inventaire i= new Inventaire(20);
-		i.delObjet();
+		i.delObjet(2);
 		assertThat(i.getObjetInventaire(2)).isNull();
     }
 

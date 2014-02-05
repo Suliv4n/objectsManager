@@ -23,8 +23,10 @@ public class Inventaire {
 		this.objet[index]=nom;
 		}
 		
-	public void delObjet(){
-		this.objet[2]=null;
+	public void delObjet(int index){
+		if(this.objet[index]!= null)
+			this.objet[index]=null;
+			
 		}
 }
 
