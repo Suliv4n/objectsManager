@@ -79,10 +79,10 @@ public class ApplicationTest {
     }
 
    @Test
-    public void Personne(){
-		Personne p = new Personne("Bob","Inventaire");
+    public void personne(){
+		Personne p = new Personne("Bob",10);
 		assertThat(p.getNom()).isEqualTo("Bob");
-		assertThat(p.getInventaire()).isEqualTo("Inventaire");
+		assertThat(p.getInventaire()).isEqualTo(10);
 	}	
 
 }
