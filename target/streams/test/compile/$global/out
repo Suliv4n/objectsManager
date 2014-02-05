@@ -2,15 +2,24 @@
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m	modified: Set(/home/bochant/play/samples/java/objman/test/ApplicationTest.java)[0m
+=======
+[0m[[0mdebug[0m] [0m	modified: Set(/home/becu/Projet_object/objectsManager/test/ApplicationTest.java)[0m
+>>>>>>> 39698f09f6a33c4208a2b4e384b2ea4e4246ce47
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
-[0m[[0mdebug[0m] [0mModified external sources: Set()[0m
+[0m[[0mdebug[0m] [0mModified external sources: Set(Inventaire)[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/bochant/play/samples/java/objman/test/ApplicationTest.java)[0m
+=======
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/becu/Projet_object/objectsManager/test/ApplicationTest.java)[0m
+>>>>>>> 39698f09f6a33c4208a2b4e384b2ea4e4246ce47
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
 [0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/bochant/play/samples/java/objman/test/ApplicationTest.java)[0m
 [0m[[0minfo[0m] [0mCompiling 1 Java source to /home/bochant/play/samples/java/objman/target/scala-2.10/test-classes...[0m
@@ -20,6 +29,17 @@
 [0m[[0mdebug[0m] [0mjavac returned exit code: 0[0m
 [0m[[0mdebug[0m] [0mJava compilation took 1.007729852 s[0m
 [0m[[0mdebug[0m] [0mJava analysis took 0.019541209 s[0m
+=======
+[0m[[0mdebug[0m] [0m	external source: Set(/home/becu/Projet_object/objectsManager/test/ApplicationTest.java)[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/becu/Projet_object/objectsManager/test/ApplicationTest.java)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to /home/becu/Projet_object/objectsManager/target/scala-2.10/test-classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
+[0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @/tmp/sbt_af021e56/argfile[0m
+[0m[[0mdebug[0m] [0mjavac returned exit code: 0[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.987805662 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.080272049 s[0m
+>>>>>>> 39698f09f6a33c4208a2b4e384b2ea4e4246ce47
 [0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set()[0m
 [0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m

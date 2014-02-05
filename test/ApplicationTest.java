@@ -45,6 +45,7 @@ public class ApplicationTest {
 		Objet o = new Objet("Arme",15);
 		assertThat(o.getNom()).isEqualTo("Arme");
     }
+<<<<<<< HEAD
     
     @Test
     public void prixObjet(){
@@ -62,4 +63,22 @@ public class ApplicationTest {
 	}
 	
 	
+=======
+
+    @Test
+	public void TailleInventaire(){
+	Inventaire i = new Inventaire(20);
+	assertThat(i.getTailleInventaire()).isEqualTo(20);
+    }
+    @Test
+	public void NomObjetInventaire(){
+	Inventaire i= new Inventaire(20);
+	assertThat(i.getObjetInventaire(0)).isEqualTo("objet");
+    }
+   @Test
+	public void NomObjetInventaire2(){
+	Inventaire i= new Inventaire(20);
+	assertThat(i.getObjetInventaire(1)).isEqualTo("objet2");
+    }
+>>>>>>> 39698f09f6a33c4208a2b4e384b2ea4e4246ce47
 }
