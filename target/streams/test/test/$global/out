@@ -1,32 +1,33 @@
-<<<<<<< HEAD
-[0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
-[0m[[0mdebug[0m] [0mSummary for specs2 not available.[0m
-[0m[[0minfo[0m] [0mPassed: Total 0, Failed 0, Errors 0, Passed 0[0m
-[0m[[0minfo[0m] [0mNo tests to run for test:test[0m
-=======
 [0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
 [0m[[0mdebug[0m] [0mTest [33mIntegrationTest[0m.[36mtest[0m started[0m
 [0m[[0mdebug[0m] [0mTest [33mIntegrationTest[0m.[36mtest[0m finished[0m
-[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 1 total, 4.008s[0m[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 1 total, 2.685s[0m[0m
 [0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
 [0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mNomObjetInventaire2[0m started[0m
 [0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mNomObjetInventaire2[0m finished[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mprixObjet[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mprixObjet[0m finished[0m
 [0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36msimpleCheck[0m started[0m
 [0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36msimpleCheck[0m finished[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mPersonne_[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mPersonne_[0m finished[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mequipableObjet[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mequipableObjet[0m finished[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mAjouterObjetInventaire2[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mAjouterObjetInventaire2[0m finished[0m
 [0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mTailleInventaire[0m started[0m
 [0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mTailleInventaire[0m finished[0m
 [0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mNomObjetInventaire[0m started[0m
 [0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mNomObjetInventaire[0m finished[0m
 [0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mrenderTemplate[0m started[0m
 [0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mrenderTemplate[0m finished[0m
-[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mNomObjet[0m started[0m
-[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mNomObjet[0m finished[0m
-[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 6 total, 0.009s[0m[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mnomObjet[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mnomObjet[0m finished[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 10 total, 0.02s[0m[0m
 [0m[[0mdebug[0m] [0mFramework implementation 'org.specs2.runner.Specs2Framework' not present.[0m
 [0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
 [0m[[0mdebug[0m] [0mSummary for specs2 not available.[0m
-[0m[[0minfo[0m] [0mPassed: Total 7, Failed 0, Errors 0, Passed 7[0m
+[0m[[0minfo[0m] [0mPassed: Total 11, Failed 0, Errors 0, Passed 11[0m
 [0m[[0mdebug[0m] [0mPassed tests:[0m
 [0m[[0mdebug[0m] [0m	ApplicationTest[0m
 [0m[[0mdebug[0m] [0m	IntegrationTest[0m
->>>>>>> 39698f09f6a33c4208a2b4e384b2ea4e4246ce47

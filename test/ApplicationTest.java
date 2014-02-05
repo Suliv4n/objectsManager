@@ -77,9 +77,16 @@ public class ApplicationTest {
 		Inventaire i= new Inventaire(20);
 		assertThat(i.getObjetInventaire(1)).isEqualTo("objet2");
     }
+    @Test
+	public void AjouterObjetInventaire2(){
+		Inventaire i= new Inventaire(20);
+		i.addObjet();
+		assertThat(i.getObjetInventaire(2)).isEqualTo("objet3");
+    }
+
 
    @Test
-    public void Personne(){
+    public void Personne_(){
 		Personne p = new Personne("Bob","Inventaire");
 		assertThat(p.getNom()).isEqualTo("Bob");
 		assertThat(p.getInventaire()).isEqualTo("Inventaire");

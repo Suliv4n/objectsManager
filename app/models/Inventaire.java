@@ -18,6 +18,9 @@ public class Inventaire {
     public String getObjetInventaire(int i){
 	return this.objet[i];
 }
-
+	
+	public void addObjet(){
+		this.objet[2]="objet3";
+		}
 }
 

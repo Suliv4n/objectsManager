@@ -7,11 +7,11 @@
 		revision="1.0-SNAPSHOT"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140129180401"/>
+		date="20140205145731"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-cache_2.10">
-			<revision name="2.2.1" status="release" pubdate="20131030164410" resolver="local" artresolver="local" downloaded="false" searched="true" default="false" conf="default(compile), compile" position="60">
-				<metadata-artifact status="no" details="" size="2126" time="0" location="/home/becu/Téléchargements/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-cache_2.10/ivy-2.2.1.xml" searched="true" original-local-location="/home/becu/Téléchargements/play-2.2.1/repository/local/com.typesafe.play/play-cache_2.10/2.2.1/ivys/ivy.xml" origin-is-local="true" origin-location="/home/becu/Téléchargements/play-2.2.1/repository/local/com.typesafe.play/play-cache_2.10/2.2.1/ivys/ivy.xml"/>
+			<revision name="2.2.1" status="release" pubdate="20131030164410" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="60">
+				<metadata-artifact status="no" details="" size="2126" time="0" location="/home/becu/Téléchargements/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-cache_2.10/ivy-2.2.1.xml" searched="false" origin-is-local="true" origin-location="/home/becu/Téléchargements/play-2.2.1/repository/local/com.typesafe.play/play-cache_2.10/2.2.1/ivys/ivy.xml"/>
 				<caller organisation="objman" name="objman_2.10" conf="test, compile, runtime" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="play-cache_2.10" type="jar" ext="jar" status="no" details="" size="35156" time="0" location="/home/becu/Téléchargements/play-2.2.1/repository/local/com.typesafe.play/play-cache_2.10/2.2.1/jars/play-cache_2.10.jar">
@@ -21,9 +21,9 @@
 			</revision>
 		</module>
 		<module organisation="net.sf.ehcache" name="ehcache-core">
-			<revision name="2.6.6" status="release" pubdate="20130508043745" resolver="local" artresolver="local" homepage="http://ehcache.org" downloaded="false" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="61">
+			<revision name="2.6.6" status="release" pubdate="20130508043745" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ehcache.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="61">
 				<license name="The Apache Software License, Version 2.0" url="src/assemble/EHCACHE-CORE-LICENSE.txt"/>
-				<metadata-artifact status="no" details="" size="16910" time="0" location="/home/becu/Téléchargements/play-2.2.1/framework/../repository/cache/net.sf.ehcache/ehcache-core/ivy-2.6.6.xml" searched="true" original-local-location="/home/becu/Téléchargements/play-2.2.1/repository/local/net.sf.ehcache/ehcache-core/2.6.6/ivys/ivy.xml" origin-is-local="true" origin-location="/home/becu/Téléchargements/play-2.2.1/repository/local/net.sf.ehcache/ehcache-core/2.6.6/ivys/ivy.xml"/>
+				<metadata-artifact status="no" details="" size="16899" time="0" location="/home/becu/Téléchargements/play-2.2.1/framework/../repository/cache/net.sf.ehcache/ehcache-core/ivy-2.6.6.xml" searched="false" origin-is-local="true" origin-location="/home/becu/Téléchargements/play-2.2.1/repository/local/net.sf.ehcache/ehcache-core/2.6.6/ivys/ivy.xml"/>
 				<caller organisation="com.typesafe.play" name="play-cache_2.10" conf="compile" rev="2.6.6" rev-constraint-default="2.6.6" rev-constraint-dynamic="2.6.6" callerrev="2.2.1"/>
 				<artifacts>
 					<artifact name="ehcache-core" type="jar" ext="jar" status="no" details="" size="1346296" time="0" location="/home/becu/Téléchargements/play-2.2.1/repository/local/net.sf.ehcache/ehcache-core/2.6.6/jars/ehcache-core.jar">
@@ -33,8 +33,8 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-java-ebean_2.10">
-			<revision name="2.2.1" status="release" pubdate="20131030164410" resolver="local" artresolver="local" downloaded="false" searched="true" default="false" conf="default(compile), compile" position="56">
-				<metadata-artifact status="no" details="" size="2478" time="0" location="/home/becu/Téléchargements/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-java-ebean_2.10/ivy-2.2.1.xml" searched="true" original-local-location="/home/becu/Téléchargements/play-2.2.1/repository/local/com.typesafe.play/play-java-ebean_2.10/2.2.1/ivys/ivy.xml" origin-is-local="true" origin-location="/home/becu/Téléchargements/play-2.2.1/repository/local/com.typesafe.play/play-java-ebean_2.10/2.2.1/ivys/ivy.xml"/>
+			<revision name="2.2.1" status="release" pubdate="20131030164410" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="56">
+				<metadata-artifact status="no" details="" size="2478" time="0" location="/home/becu/Téléchargements/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-java-ebean_2.10/ivy-2.2.1.xml" searched="false" origin-is-local="true" origin-location="/home/becu/Téléchargements/play-2.2.1/repository/local/com.typesafe.play/play-java-ebean_2.10/2.2.1/ivys/ivy.xml"/>
 				<caller organisation="objman" name="objman_2.10" conf="test, compile, runtime" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="play-java-ebean_2.10" type="jar" ext="jar" status="no" details="" size="12641" time="0" location="/home/becu/Téléchargements/play-2.2.1/repository/local/com.typesafe.play/play-java-ebean_2.10/2.2.1/jars/play-java-ebean_2.10.jar">
@@ -44,9 +44,9 @@
 			</revision>
 		</module>
 		<module organisation="org.hibernate.javax.persistence" name="hibernate-jpa-2.0-api">
-			<revision name="1.0.1.Final" status="release" pubdate="20120905080915" resolver="local" artresolver="local" homepage="http://hibernate.org" downloaded="false" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="59">
+			<revision name="1.0.1.Final" status="release" pubdate="20120905080915" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hibernate.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="59">
 				<license name="Unknown License" url="license.txt"/>
-				<metadata-artifact status="no" details="" size="2465" time="0" location="/home/becu/Téléchargements/play-2.2.1/framework/../repository/cache/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/ivy-1.0.1.Final.xml" searched="true" original-local-location="/home/becu/Téléchargements/play-2.2.1/repository/local/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/1.0.1.Final/ivys/ivy.xml" origin-is-local="true" origin-location="/home/becu/Téléchargements/play-2.2.1/repository/local/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/1.0.1.Final/ivys/ivy.xml"/>
+				<metadata-artifact status="no" details="" size="2454" time="0" location="/home/becu/Téléchargements/play-2.2.1/framework/../repository/cache/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/ivy-1.0.1.Final.xml" searched="false" origin-is-local="true" origin-location="/home/becu/Téléchargements/play-2.2.1/repository/local/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/1.0.1.Final/ivys/ivy.xml"/>
 				<caller organisation="com.typesafe.play" name="play-java-ebean_2.10" conf="compile" rev="1.0.1.Final" rev-constraint-default="1.0.1.Final" rev-constraint-dynamic="1.0.1.Final" callerrev="2.2.1"/>
 				<artifacts>
 					<artifact name="hibernate-jpa-2.0-api" type="jar" ext="jar" status="no" details="" size="102661" time="0" location="/home/becu/Téléchargements/play-2.2.1/repository/local/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/1.0.1.Final/jars/hibernate-jpa-2.0-api.jar">
@@ -56,9 +56,9 @@
 			</revision>
 		</module>
 		<module organisation="org.avaje.ebeanorm" name="avaje-ebeanorm">
-			<revision name="3.2.2" status="release" pubdate="20130712191342" resolver="local" artresolver="local" homepage="http://www.avaje.org" downloaded="false" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="57">
+			<revision name="3.2.2" status="release" pubdate="20130712191342" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.avaje.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="57">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="6277" time="0" location="/home/becu/Téléchargements/play-2.2.1/framework/../repository/cache/org.avaje.ebeanorm/avaje-ebeanorm/ivy-3.2.2.xml" searched="true" original-local-location="/home/becu/Téléchargements/play-2.2.1/repository/local/org.avaje.ebeanorm/avaje-ebeanorm/3.2.2/ivys/ivy.xml" origin-is-local="true" origin-location="/home/becu/Téléchargements/play-2.2.1/repository/local/org.avaje.ebeanorm/avaje-ebeanorm/3.2.2/ivys/ivy.xml"/>
+				<metadata-artifact status="no" details="" size="6265" time="0" location="/home/becu/Téléchargements/play-2.2.1/framework/../repository/cache/org.avaje.ebeanorm/avaje-ebeanorm/ivy-3.2.2.xml" searched="false" origin-is-local="true" origin-location="/home/becu/Téléchargements/play-2.2.1/repository/local/org.avaje.ebeanorm/avaje-ebeanorm/3.2.2/ivys/ivy.xml"/>
 				<caller organisation="com.typesafe.play" name="play-java-ebean_2.10" conf="compile" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="2.2.1"/>
 				<artifacts>
 					<artifact name="avaje-ebeanorm" type="jar" ext="jar" status="no" details="" size="1582101" time="0" location="/home/becu/Téléchargements/play-2.2.1/repository/local/org.avaje.ebeanorm/avaje-ebeanorm/3.2.2/jars/avaje-ebeanorm.jar">
@@ -80,8 +80,8 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-java-jdbc_2.10">
-			<revision name="2.2.1" status="release" pubdate="20131030164410" resolver="local" artresolver="local" downloaded="false" searched="true" default="false" conf="default(compile), compile" position="1">
-				<metadata-artifact status="no" details="" size="2066" time="0" location="/home/becu/Téléchargements/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-java-jdbc_2.10/ivy-2.2.1.xml" searched="true" original-local-location="/home/becu/Téléchargements/play-2.2.1/repository/local/com.typesafe.play/play-java-jdbc_2.10/2.2.1/ivys/ivy.xml" origin-is-local="true" origin-location="/home/becu/Téléchargements/play-2.2.1/repository/local/com.typesafe.play/play-java-jdbc_2.10/2.2.1/ivys/ivy.xml"/>
+			<revision name="2.2.1" status="release" pubdate="20131030164410" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">
+				<metadata-artifact status="no" details="" size="2066" time="0" location="/home/becu/Téléchargements/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-java-jdbc_2.10/ivy-2.2.1.xml" searched="false" origin-is-local="true" origin-location="/home/becu/Téléchargements/play-2.2.1/repository/local/com.typesafe.play/play-java-jdbc_2.10/2.2.1/ivys/ivy.xml"/>
 				<caller organisation="objman" name="objman_2.10" conf="test, compile, runtime" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="com.typesafe.play" name="play-java-ebean_2.10" conf="compile" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="2.2.1"/>
 				<artifacts>
@@ -725,8 +725,8 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-jdbc_2.10">
-			<revision name="2.2.1" status="release" pubdate="20131030164410" resolver="local" artresolver="local" downloaded="false" searched="true" default="false" conf="default(compile), compile" position="2">
-				<metadata-artifact status="no" details="" size="2409" time="0" location="/home/becu/Téléchargements/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-jdbc_2.10/ivy-2.2.1.xml" searched="true" original-local-location="/home/becu/Téléchargements/play-2.2.1/repository/local/com.typesafe.play/play-jdbc_2.10/2.2.1/ivys/ivy.xml" origin-is-local="true" origin-location="/home/becu/Téléchargements/play-2.2.1/repository/local/com.typesafe.play/play-jdbc_2.10/2.2.1/ivys/ivy.xml"/>
+			<revision name="2.2.1" status="release" pubdate="20131030164410" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="2">
+				<metadata-artifact status="no" details="" size="2409" time="0" location="/home/becu/Téléchargements/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-jdbc_2.10/ivy-2.2.1.xml" searched="false" origin-is-local="true" origin-location="/home/becu/Téléchargements/play-2.2.1/repository/local/com.typesafe.play/play-jdbc_2.10/2.2.1/ivys/ivy.xml"/>
 				<caller organisation="com.typesafe.play" name="play-java-jdbc_2.10" conf="compile" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="2.2.1"/>
 				<artifacts>
 					<artifact name="play-jdbc_2.10" type="jar" ext="jar" status="no" details="" size="201709" time="0" location="/home/becu/Téléchargements/play-2.2.1/repository/local/com.typesafe.play/play-jdbc_2.10/2.2.1/jars/play-jdbc_2.10.jar">
@@ -736,8 +736,8 @@
 			</revision>
 		</module>
 		<module organisation="tyrex" name="tyrex">
-			<revision name="1.0.1" status="release" pubdate="20120905080950" resolver="local" artresolver="local" homepage="" downloaded="false" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="43">
-				<metadata-artifact status="no" details="" size="2176" time="0" location="/home/becu/Téléchargements/play-2.2.1/framework/../repository/cache/tyrex/tyrex/ivy-1.0.1.xml" searched="true" original-local-location="/home/becu/Téléchargements/play-2.2.1/repository/local/tyrex/tyrex/1.0.1/ivys/ivy.xml" origin-is-local="true" origin-location="/home/becu/Téléchargements/play-2.2.1/repository/local/tyrex/tyrex/1.0.1/ivys/ivy.xml"/>
+			<revision name="1.0.1" status="release" pubdate="20120905080950" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="43">
+				<metadata-artifact status="no" details="" size="2165" time="0" location="/home/becu/Téléchargements/play-2.2.1/framework/../repository/cache/tyrex/tyrex/ivy-1.0.1.xml" searched="false" origin-is-local="true" origin-location="/home/becu/Téléchargements/play-2.2.1/repository/local/tyrex/tyrex/1.0.1/ivys/ivy.xml"/>
 				<caller organisation="com.typesafe.play" name="play-jdbc_2.10" conf="compile" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="2.2.1"/>
 				<artifacts>
 					<artifact name="tyrex" type="jar" ext="jar" status="no" details="" size="201315" time="0" location="/home/becu/Téléchargements/play-2.2.1/repository/local/tyrex/tyrex/1.0.1/jars/tyrex.jar">
@@ -772,8 +772,8 @@
 			</revision>
 		</module>
 		<module organisation="com.jolbox" name="bonecp">
-			<revision name="0.8.0.RELEASE" status="release" pubdate="20131023224844" resolver="local" artresolver="local" homepage="" downloaded="false" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="40">
-				<metadata-artifact status="no" details="" size="9258" time="0" location="/home/becu/Téléchargements/play-2.2.1/framework/../repository/cache/com.jolbox/bonecp/ivy-0.8.0.RELEASE.xml" searched="true" original-local-location="/home/becu/Téléchargements/play-2.2.1/repository/local/com.jolbox/bonecp/0.8.0.RELEASE/ivys/ivy.xml" origin-is-local="true" origin-location="/home/becu/Téléchargements/play-2.2.1/repository/local/com.jolbox/bonecp/0.8.0.RELEASE/ivys/ivy.xml"/>
+			<revision name="0.8.0.RELEASE" status="release" pubdate="20131023224844" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="40">
+				<metadata-artifact status="no" details="" size="9248" time="0" location="/home/becu/Téléchargements/play-2.2.1/framework/../repository/cache/com.jolbox/bonecp/ivy-0.8.0.RELEASE.xml" searched="false" origin-is-local="true" origin-location="/home/becu/Téléchargements/play-2.2.1/repository/local/com.jolbox/bonecp/0.8.0.RELEASE/ivys/ivy.xml"/>
 				<caller organisation="com.typesafe.play" name="play-jdbc_2.10" conf="compile" rev="0.8.0.RELEASE" rev-constraint-default="0.8.0.RELEASE" rev-constraint-dynamic="0.8.0.RELEASE" callerrev="2.2.1"/>
 				<artifacts>
 					<artifact name="bonecp" type="bundle" ext="jar" status="no" details="" size="110600" time="0" location="/home/becu/Téléchargements/play-2.2.1/repository/local/com.jolbox/bonecp/0.8.0.RELEASE/bundles/bonecp.jar">
