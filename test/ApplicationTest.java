@@ -77,13 +77,8 @@ public class ApplicationTest {
 		Inventaire i= new Inventaire(20);
 		assertThat(i.getObjetInventaire(1)).isEqualTo("objet2");
     }
-<<<<<<< HEAD
-    
-    @Test
-=======
 
    @Test
->>>>>>> 8a4960ea7c6dcfee09cefdc32c58a2c88c70dc73
     public void Personne(){
 		Personne p = new Personne("Bob","Inventaire");
 		assertThat(p.getNom()).isEqualTo("Bob");
