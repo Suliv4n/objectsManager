@@ -16,11 +16,11 @@
 [0m[[0minfo[0m] [0mCompiling 1 Java source to /home/becu/Projet_object/objectsManager/target/scala-2.10/test-classes...[0m
 [0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
 [0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
-[0m[[0mdebug[0m] [0mForking javac: javac @/tmp/sbt_87f3ed11/argfile[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @/tmp/sbt_8832aa75/argfile[0m
 [0m[[0mdebug[0m] [0mjavac returned exit code: 0[0m
-[0m[[0mdebug[0m] [0mJava compilation took 0.636594415 s[0m
-[0m[[0mdebug[0m] [0mJava analysis took 0.04427781 s[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set()[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.674187861 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.047604192 s[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/becu/Projet_object/objectsManager/test/ApplicationTest.java)[0m
 [0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m

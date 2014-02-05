@@ -22,5 +22,9 @@ public class Inventaire {
 	public void addObjet(String nom, int index){
 		this.objet[index]=nom;
 		}
+		
+	public void delObjet(){
+		this.objet[2]=null;
+		}
 }
 
