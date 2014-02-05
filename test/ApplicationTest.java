@@ -19,6 +19,8 @@ import static play.test.Helpers.*;
 import static org.fest.assertions.Assertions.*;
 
 
+import models.*;
+
 /**
 *
 * Simple (JUnit) tests that can call all parts of a play app.
@@ -61,5 +63,12 @@ public class ApplicationTest {
 		assertThat(o.estEquipable()).isEqualTo(true);
 	}
 	
-	
+	@Test
+	public void testEtatObjet()
+	{
+		Objet o = new Objet("Arbre");
+		assertThat(o.getEtat()).isEqualTo(Objet.INTACT);
+		o.setEtat(Objet.COUPE);
+		assertThat(o.getEtat()).isEqualTo(Objet.COUPE);
+	}
 }
