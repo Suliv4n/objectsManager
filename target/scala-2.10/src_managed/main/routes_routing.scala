@@ -1,6 +1,6 @@
 // @SOURCE:/home/bochant/play/samples/java/objman/conf/routes
 // @HASH:9c24f09449355737d0bfbe9ca53280febbd777c7
-// @DATE:Mon Feb 03 09:17:31 CET 2014
+// @DATE:Wed Feb 05 14:55:29 CET 2014
 
 
 import play.core._

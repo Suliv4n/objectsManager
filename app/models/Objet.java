@@ -14,7 +14,7 @@ public class Objet{
     {
 		this.nom=nom;
 		this.prix=prix;
-		this.equipable = false;
+		this.equipable = equipable;
     }
     
     public String getNom(){
