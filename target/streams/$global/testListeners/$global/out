@@ -1,15 +1,20 @@
 [0m[[0minfo[0m] [0mIntegrationTest[0m
-[0m[[0minfo[0m] [0m[32m+[0m test[0m
+[0m[[0minfo[0m] [0m+ test[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0mTotal for test IntegrationTest[0m
-[0m[[0minfo[0m] [0m[34mFinished in 0.02 seconds[0m[0m
-[0m[[0minfo[0m] [0m[34m1 tests, 0 failures, 0 errors[0m[0m
+[0m[[0minfo[0m] [0mFinished in 0.179 seconds[0m
+[0m[[0minfo[0m] [0m1 tests, 0 failures, 0 errors[0m
 [0m[[0minfo[0m] [0mApplicationTest[0m
-[0m[[0minfo[0m] [0m[32m+[0m simpleCheck[0m
-[0m[[0minfo[0m] [0m[32m+[0m renderTemplate[0m
+[0m[[0minfo[0m] [0m+ testEtatObjet[0m
+[0m[[0minfo[0m] [0m+ prixObjet[0m
+[0m[[0minfo[0m] [0m+ simpleCheck[0m
+[0m[[0minfo[0m] [0m+ equipableObjet[0m
+[0m[[0minfo[0m] [0m+ testActionObjet[0m
+[0m[[0minfo[0m] [0m+ renderTemplate[0m
+[0m[[0minfo[0m] [0m+ nomObjet[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0mTotal for test ApplicationTest[0m
-[0m[[0minfo[0m] [0m[34mFinished in 0.001 seconds[0m[0m
-[0m[[0minfo[0m] [0m[34m2 tests, 0 failures, 0 errors[0m[0m
+[0m[[0minfo[0m] [0mFinished in 0.279 seconds[0m
+[0m[[0minfo[0m] [0m7 tests, 0 failures, 0 errors[0m

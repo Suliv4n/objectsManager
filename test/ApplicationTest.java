@@ -3,6 +3,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
 import com.fasterxml.jackson.databind.JsonNode;
 import org.junit.*;
 
@@ -19,7 +20,7 @@ import static play.test.Helpers.*;
 import static org.fest.assertions.Assertions.*;
 
 
-import models.*;
+import models.Objet;
 
 /**
 *
@@ -66,7 +67,7 @@ public class ApplicationTest {
 	@Test
 	public void testEtatObjet()
 	{
-		Objet o = new Objet("Arbre");
+		Objet o = new Objet("Arbre",10);
 		assertThat(o.getEtat()).isEqualTo(Objet.INTACT);
 		o.setEtat(Objet.COUPE);
 		assertThat(o.getEtat()).isEqualTo(Objet.COUPE);
@@ -88,8 +89,6 @@ public class ApplicationTest {
 		succes = tap.doAction(arbre2);
 		
 		assertThat(succes).isEqualTo(false);
-		assertThat(arbre.getEtat()).isEqualTo(Objet.INTACT);
-		
-		assertThat()
+		assertThat(arbre2.getEtat()).isEqualTo(Objet.INTACT);
 	}
 }

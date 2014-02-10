@@ -21,7 +21,7 @@ public class Objet{
     {
 		this.nom=nom;
 		this.prix=prix;
-		this.equipable = false;
+		this.equipable = equipable;
 		this.etat=INTACT;
     }
     
@@ -29,9 +29,14 @@ public class Objet{
 		return nom;
     }
     
-    public setEtat(int etat)
+    public void setEtat(int etat)
     {
 		this.etat = etat;
+	}
+	
+	public int getEtat()
+	{
+		return etat;
 	}
     
     public int getPrix()
@@ -44,8 +49,16 @@ public class Objet{
 		return equipable;
 	}
 	
-	public boolean doAction()
+	public boolean doAction(Objet target)
 	{
-		
+		if(this.nom.equalsIgnoreCase("hache") && target.nom.equalsIgnoreCase("arbre"))
+		{
+			if(target.etat != COUPE)
+			{
+				target.etat = COUPE;
+				return true;
+			}
+		}
+		return false;
 	}
 }
