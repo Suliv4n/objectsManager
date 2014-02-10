@@ -1,3 +1,5 @@
+package models;
+
 public class Personne{
 	private String nom;
 	private String inventaire;

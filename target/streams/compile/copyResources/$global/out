@@ -1,3 +1,3 @@
 [0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/home/bochant/play/samples/java/objman/conf/routes,/home/bochant/play/samples/java/objman/target/scala-2.10/classes/routes)[0m
-[0m[[0mdebug[0m] [0m	(/home/bochant/play/samples/java/objman/conf/application.conf,/home/bochant/play/samples/java/objman/target/scala-2.10/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Darklev\projet\objectsManager\conf\application.conf,C:\Users\Darklev\projet\objectsManager\target\scala-2.10\classes\application.conf)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Darklev\projet\objectsManager\conf\routes,C:\Users\Darklev\projet\objectsManager\target\scala-2.10\classes\routes)[0m
