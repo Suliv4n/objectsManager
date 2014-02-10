@@ -91,4 +91,19 @@ public class ApplicationTest {
 		assertThat(succes).isEqualTo(false);
 		assertThat(arbre2.getEtat()).isEqualTo(Objet.INTACT);
 	}
+	
+	@Test
+	public void testPotion()
+	{
+		ArrayList<Effet> effets = new ArrayList<Effet>();
+		effets.add(new Effet(Effet.SOIN, 10, 0));
+		Potion p = new Potion("Potion de soin",10, effets);
+		Personne perso = new Personne("Test",2,100);
+		perso.updatePV(-20); //On fait perdre 20 pv au personnage.
+		
+		p.doAction(perso);
+		assertThat(perso.getPV()).isEqualTo(100);
+		
+		
+	}
 }
