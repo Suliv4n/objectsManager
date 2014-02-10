@@ -1,3 +1,8 @@
 [0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m	(C:\Users\Darklev\Desktop\Objects manager\conf\application.conf,C:\Users\Darklev\Desktop\Objects manager\target\scala-2.10\classes\application.conf)[0m
 [0m[[0mdebug[0m] [0m	(C:\Users\Darklev\Desktop\Objects manager\conf\routes,C:\Users\Darklev\Desktop\Objects manager\target\scala-2.10\classes\routes)[0m
+=======
+[0m[[0mdebug[0m] [0m	(/home/bourbon/objectsManager/conf/routes,/home/bourbon/objectsManager/target/scala-2.10/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/bourbon/objectsManager/conf/application.conf,/home/bourbon/objectsManager/target/scala-2.10/classes/application.conf)[0m
+>>>>>>> 19afe34c401787d97aa1f74affc1d01addcf7a10

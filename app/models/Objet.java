@@ -1,5 +1,8 @@
 package models;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 19afe34c401787d97aa1f74affc1d01addcf7a10
 public class Objet{
     
     private String nom;
@@ -22,7 +25,10 @@ public class Objet{
 		this.nom=nom;
 		this.prix=prix;
 		this.equipable = equipable;
+<<<<<<< HEAD
 		this.etat=INTACT;
+=======
+>>>>>>> 19afe34c401787d97aa1f74affc1d01addcf7a10
     }
     
     public String getNom(){

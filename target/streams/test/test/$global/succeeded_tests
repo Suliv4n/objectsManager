@@ -1,4 +1,10 @@
 #Successful Tests
+<<<<<<< HEAD
 #Mon Feb 10 19:22:53 CET 2014
 IntegrationTest=1392056571782
 ApplicationTest=1392056572238
+=======
+#Wed Feb 05 16:27:15 CET 2014
+IntegrationTest=1391614035612
+ApplicationTest=1391614035644
+>>>>>>> 19afe34c401787d97aa1f74affc1d01addcf7a10

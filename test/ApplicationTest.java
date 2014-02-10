@@ -19,6 +19,8 @@ import play.libs.F.*;
 import static play.test.Helpers.*;
 import static org.fest.assertions.Assertions.*;
 
+import models.*;
+
 
 import models.Objet;
 
@@ -42,8 +44,7 @@ public class ApplicationTest {
         assertThat(contentType(html)).isEqualTo("text/html");
         assertThat(contentAsString(html)).contains("Your new application is ready.");
     }
-
-    @Test
+    
     public void nomObjet(){
 		Objet o = new Objet("Arme",15);
 		assertThat(o.getNom()).isEqualTo("Arme");
@@ -64,6 +65,7 @@ public class ApplicationTest {
 		assertThat(o.estEquipable()).isEqualTo(true);
 	}
 	
+<<<<<<< HEAD
 	@Test
 	public void testEtatObjet()
 	{
@@ -106,4 +108,31 @@ public class ApplicationTest {
 		
 		
 	}
+=======
+
+    @Test
+	public void TailleInventaire(){
+		Inventaire i = new Inventaire(20);
+		assertThat(i.getTailleInventaire()).isEqualTo(20);
+    }
+    @Test
+	public void NomObjetInventaire(){
+		Inventaire i= new Inventaire(20);
+		assertThat(i.getObjetInventaire(0)).isEqualTo("objet");
+    }
+    
+    @Test
+	public void NomObjetInventaire2(){
+		Inventaire i= new Inventaire(20);
+		assertThat(i.getObjetInventaire(1)).isEqualTo("objet2");
+    }
+
+   @Test
+    public void personne(){
+		Personne p = new Personne("Bob", 10);
+		assertThat(p.getNom()).isEqualTo("Bob");
+		assertThat(p.getInventaire().getTailleInventaire()).isEqualTo(10);
+	}	
+
+>>>>>>> 19afe34c401787d97aa1f74affc1d01addcf7a10
 }

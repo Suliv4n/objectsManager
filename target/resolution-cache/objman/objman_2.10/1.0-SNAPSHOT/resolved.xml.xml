@@ -4,7 +4,11 @@
 		module="objman_2.10"
 		revision="1.0-SNAPSHOT"
 		status="integration"
+<<<<<<< HEAD
 		publication="20140210191935"
+=======
+		publication="20140205162155"
+>>>>>>> 19afe34c401787d97aa1f74affc1d01addcf7a10
 	>
 		<description>
 		objman

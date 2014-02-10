@@ -3,6 +3,7 @@
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0mTotal for test IntegrationTest[0m
+<<<<<<< HEAD
 [0m[[0minfo[0m] [0mFinished in 0.179 seconds[0m
 [0m[[0minfo[0m] [0m1 tests, 0 failures, 0 errors[0m
 [0m[[0minfo[0m] [0mApplicationTest[0m
@@ -18,3 +19,21 @@
 [0m[[0minfo[0m] [0mTotal for test ApplicationTest[0m
 [0m[[0minfo[0m] [0mFinished in 0.279 seconds[0m
 [0m[[0minfo[0m] [0m7 tests, 0 failures, 0 errors[0m
+=======
+[0m[[0minfo[0m] [0m[34mFinished in 0.022 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34m1 tests, 0 failures, 0 errors[0m[0m
+[0m[[0minfo[0m] [0mApplicationTest[0m
+[0m[[0minfo[0m] [0m[32m+[0m NomObjetInventaire2[0m
+[0m[[0minfo[0m] [0m[32m+[0m prixObjet[0m
+[0m[[0minfo[0m] [0m[32m+[0m simpleCheck[0m
+[0m[[0minfo[0m] [0m[32m+[0m equipableObjet[0m
+[0m[[0minfo[0m] [0m[32m+[0m personne[0m
+[0m[[0minfo[0m] [0m[32m+[0m TailleInventaire[0m
+[0m[[0minfo[0m] [0m[32m+[0m NomObjetInventaire[0m
+[0m[[0minfo[0m] [0m[32m+[0m renderTemplate[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mTotal for test ApplicationTest[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.003 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34m8 tests, 0 failures, 0 errors[0m[0m
+>>>>>>> 19afe34c401787d97aa1f74affc1d01addcf7a10
