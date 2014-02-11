@@ -65,7 +65,6 @@ public class ApplicationTest {
 		assertThat(o.estEquipable()).isEqualTo(true);
 	}
 	
-<<<<<<< HEAD
 	@Test
 	public void testEtatObjet()
 	{
@@ -108,7 +107,7 @@ public class ApplicationTest {
 		
 		
 	}
-=======
+
 
     @Test
 	public void TailleInventaire(){
@@ -134,5 +133,5 @@ public class ApplicationTest {
 		assertThat(p.getInventaire().getTailleInventaire()).isEqualTo(10);
 	}	
 
->>>>>>> 19afe34c401787d97aa1f74affc1d01addcf7a10
+
 }
