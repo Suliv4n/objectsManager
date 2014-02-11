@@ -5,6 +5,7 @@ public class Personne extends Objet{
 	private Inventaire inventaire;
 	private int pv;
 	private int pvmax;
+	private String nom;
 	
 	public Personne(String nom, int i){
 			super(nom);
