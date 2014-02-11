@@ -1,3 +1,5 @@
+package models;
+
 public class Objet{
     
     private String nom;

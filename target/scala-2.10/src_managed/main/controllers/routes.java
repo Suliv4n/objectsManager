@@ -1,6 +1,6 @@
 // @SOURCE:/home/becu/Projet_object/objectsManager/conf/routes
 // @HASH:9c24f09449355737d0bfbe9ca53280febbd777c7
-// @DATE:Wed Feb 05 14:57:37 CET 2014
+// @DATE:Tue Feb 11 12:38:35 CET 2014
 
 package controllers;
 

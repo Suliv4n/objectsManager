@@ -1,7 +1,7 @@
 [0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
 [0m[[0mdebug[0m] [0mTest [33mIntegrationTest[0m.[36mtest[0m started[0m
 [0m[[0mdebug[0m] [0mTest [33mIntegrationTest[0m.[36mtest[0m finished[0m
-[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 1 total, 2.676s[0m[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 1 total, 4.834s[0m[0m
 [0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
 [0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mDeplacerObjetInventaire[0m started[0m
 [0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mDeplacerObjetInventaire[0m finished[0m
@@ -27,7 +27,7 @@
 [0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mnomObjet[0m finished[0m
 [0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mAjouterObjetInventaire[0m started[0m
 [0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mAjouterObjetInventaire[0m finished[0m
-[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 12 total, 0.008s[0m[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 12 total, 0.021s[0m[0m
 [0m[[0mdebug[0m] [0mFramework implementation 'org.specs2.runner.Specs2Framework' not present.[0m
 [0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
 [0m[[0mdebug[0m] [0mSummary for specs2 not available.[0m
