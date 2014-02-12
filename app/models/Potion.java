@@ -1,8 +1,12 @@
 import java.util.ArrayList;
 import models.*;
+import javax.persistence.*;
+ 
+import play.db.jpa.*;
 
 public class Potion extends Objet{
-	
+
+	@ManyToMany(mappedBy="effet", cascade=CascadeType.ALL)
 	private ArrayList<Effet> effets;
 	
 	public Potion(String nom, ArrayList<Effet> effets)

@@ -1,6 +1,6 @@
-// @SOURCE:/home/bochant/play/samples/java/objman/conf/routes
-// @HASH:9c24f09449355737d0bfbe9ca53280febbd777c7
-// @DATE:Wed Feb 12 10:25:19 CET 2014
+// @SOURCE:C:/Users/Darklev/Desktop/Objects manager/conf/routes
+// @HASH:73d60b7f4074d1f95d3c1114b67496982ebaade9
+// @DATE:Wed Feb 12 18:34:29 CET 2014
 
 package controllers;
 

@@ -1,6 +1,6 @@
-// @SOURCE:/home/bochant/play/samples/java/objman/conf/routes
-// @HASH:9c24f09449355737d0bfbe9ca53280febbd777c7
-// @DATE:Wed Feb 12 10:25:19 CET 2014
+// @SOURCE:C:/Users/Darklev/Desktop/Objects manager/conf/routes
+// @HASH:73d60b7f4074d1f95d3c1114b67496982ebaade9
+// @DATE:Wed Feb 12 18:34:29 CET 2014
 
 
 import play.core._
@@ -32,10 +32,14 @@ lazy val defaultPrefix = { if(Routes.prefix.endsWith("/")) "" else "/" }
 private[this] lazy val controllers_Application_index0 = Route("GET", PathPattern(List(StaticPart(Routes.prefix))))
         
 
-// @LINE:9
-private[this] lazy val controllers_Assets_at1 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("assets/"),DynamicPart("file", """.+""",false))))
+// @LINE:7
+private[this] lazy val controllers_Application_inventaire1 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("inventaire"))))
         
-def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
+
+// @LINE:10
+private[this] lazy val controllers_Assets_at2 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("assets/"),DynamicPart("file", """.+""",false))))
+        
+def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """inventaire""","""controllers.Application.inventaire()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
   case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
   case l => s ++ l.asInstanceOf[List[(String,String,String)]] 
 }}
@@ -51,8 +55,16 @@ case controllers_Application_index0(params) => {
 }
         
 
-// @LINE:9
-case controllers_Assets_at1(params) => {
+// @LINE:7
+case controllers_Application_inventaire1(params) => {
+   call { 
+        invokeHandler(controllers.Application.inventaire(), HandlerDef(this, "controllers.Application", "inventaire", Nil,"GET", """""", Routes.prefix + """inventaire"""))
+   }
+}
+        
+
+// @LINE:10
+case controllers_Assets_at2(params) => {
    call(Param[String]("path", Right("/public")), params.fromPath[String]("file", None)) { (path, file) =>
         invokeHandler(controllers.Assets.at(path, file), HandlerDef(this, "controllers.Assets", "at", Seq(classOf[String], classOf[String]),"GET", """ Map static resources from the /public folder to the /assets URL path""", Routes.prefix + """assets/$file<.+>"""))
    }

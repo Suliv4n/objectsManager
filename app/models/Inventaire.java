@@ -1,11 +1,17 @@
 package models;
 import models.*;
+import javax.persistence.*;
+ 
+import play.db.jpa.*;
 
-
+@Entity
 public class Inventaire {
 
     int taille;
+	
+	@ManyToOne
     Objet objet[];
+	
     public Inventaire(int i){
 		this.taille = i;
 		objet = new Objet [taille];

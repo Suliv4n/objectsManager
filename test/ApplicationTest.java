@@ -162,5 +162,19 @@ public class ApplicationTest {
 		assertThat(p.getInventaire().getTailleInventaire()).isEqualTo(10);
 	}	
 
+	@Before
+	public void deleteAll()
+	{
+		Fixtures.deleteAll();
+	}
+	
+	@Test
+	public void testPersistanceObjet()
+	{
+		Personne p = new Personne("Draven",10);
+		p.save();
+		
+		assertEquals(1,);
+	}
 
 }

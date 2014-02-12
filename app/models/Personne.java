@@ -1,8 +1,15 @@
 package models;
 import models.*;
+import javax.persistence.*;
+ 
+import play.db.jpa.*;
+
 
 public class Personne extends Objet{
+
+	@OneToOne
 	private Inventaire inventaire;
+	
 	private int pv;
 	private int pvmax;
 	private String nom;

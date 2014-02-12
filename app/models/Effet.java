@@ -1,3 +1,8 @@
+import javax.persistence.*;
+ 
+import play.db.jpa.*;
+
+@Entity
 public class Effet{
 	
 	private int type;

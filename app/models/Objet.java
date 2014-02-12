@@ -1,6 +1,10 @@
 package models;
+import javax.persistence.*;
+ 
+import play.db.jpa.*;
 
-public class Objet{
+@Entity
+public class Objet extends Model{
     
     private String nom;
 	private int prix;
