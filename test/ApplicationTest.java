@@ -104,7 +104,7 @@ public class ApplicationTest {
 		perso.updatePV(-20); //On fait perdre 20 pv au personnage.
 		
 		p.doAction(perso);
-		assertThat(perso.getPV()).isEqualTo(100);
+		assertThat(perso.getPV()).isEqualTo(90);
 		
 		
 	}

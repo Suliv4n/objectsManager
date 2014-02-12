@@ -25,13 +25,13 @@ public class Potion extends Objet{
 	@Override
 	public boolean doAction(Objet target)
 	{
-		if(Objet instanceof Personne)
+		if(target instanceof Personne)
 		{
 			for(Effet e : effets)
 			{
 				if(e.getType() == Effet.SOIN)
 				{
-					((Personne)target).updatePV(e.getValue());
+					((Personne)target).updatePV(e.getPuissance());
 					return true;
 				}
 			}

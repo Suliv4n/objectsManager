@@ -1,11 +1,90 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite hostname="info21-06" name="IntegrationTest" tests="1" errors="0" failures="0" time="0.055">
+<testsuite hostname="info22-06" name="IntegrationTest" tests="1" errors="0" failures="1" time="0.016">
         <properties>
-      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64"/><property name="java.vm.version" value="23.7-b01"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="FR"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/home/becu/Projet_object/objectsManager"/><property name="java.runtime.version" value="1.7.0_25-b30"/><property name="sbt.boot.properties" value="/home/becu/Téléchargements/play-2.2.1/framework/sbt/sbt.boot.properties"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="/tmp"/><property name="line.separator" value="
-"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Linux"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="http.proxyPort" value="3128"/><property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="51.0"/><property name="play.home" value="/home/becu/Téléchargements/play-2.2.1/framework"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="3.8.0-35-generic"/><property name="user.home" value="/home/becu"/><property name="user.timezone" value="Europe/Paris"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.7"/><property name="java.class.path" value="/home/becu/Téléchargements/play-2.2.1/framework/sbt/sbt-launch.jar"/><property name="user.name" value="becu"/><property name="jline.shutdownhook" value="false"/><property name="play.version" value="2.2.1"/><property name="java.vm.specification.version" value="1.7"/><property name="sun.java.command" value="/home/becu/Téléchargements/play-2.2.1/framework/sbt/sbt-launch.jar test"/><property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="fr"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.7.0_25"/><property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/><property name="http.proxyHost" value="wwwcache.univ-orleans.fr"/><property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.cpu.isalist" value=""/>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64"/><property name="java.vm.version" value="23.7-b01"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/home/bochant/play/samples/java/objman"/><property name="java.runtime.version" value="1.7.0_25-b30"/><property name="sbt.boot.properties" value="../../../framework/sbt/sbt.boot.properties"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="/tmp"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Linux"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="51.0"/><property name="play.home" value="../../../framework"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="3.8.0-35-generic"/><property name="user.home" value="/home/bochant"/><property name="user.timezone" value="Europe/Paris"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.7"/><property name="java.class.path" value="../../../framework/sbt/sbt-launch.jar"/><property name="user.name" value="bochant"/><property name="jline.shutdownhook" value="false"/><property name="play.version" value="2.2.1"/><property name="java.vm.specification.version" value="1.7"/><property name="sun.java.command" value="../../../framework/sbt/sbt-launch.jar test"/><property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.7.0_25"/><property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/><property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.cpu.isalist" value=""/>
     </properties>
         <testcase classname="IntegrationTest" name="test" time="0.0">
-      
+      <failure message="&lt;'&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;
+      Test
+    &lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; media=&quot;screen&quot; href=&quot;/assets/stylesheets/main.css&quot;/&gt;
+    &lt;link rel=&quot;shortcut icon&quot; type=&quot;image/png&quot; href=&quot;/assets/images/favicon.png&quot;/&gt;
+    &lt;script src=&quot;/assets/javascripts/jquery-1.9.0.min.js&quot; type=&quot;text/javascript&quot;&gt;
+    &lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body style=&quot;zoom: 1;&quot;&gt;
+    &lt;h1&gt;
+      Test
+    &lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+'&gt; should contain the String:&lt;'Your new application is ready.'&gt;" type="sbt.ForkMain$ForkError">
+              sbt.ForkMain$ForkError: &lt;'&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;
+      Test
+    &lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; media=&quot;screen&quot; href=&quot;/assets/stylesheets/main.css&quot;/&gt;
+    &lt;link rel=&quot;shortcut icon&quot; type=&quot;image/png&quot; href=&quot;/assets/images/favicon.png&quot;/&gt;
+    &lt;script src=&quot;/assets/javascripts/jquery-1.9.0.min.js&quot; type=&quot;text/javascript&quot;&gt;
+    &lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body style=&quot;zoom: 1;&quot;&gt;
+    &lt;h1&gt;
+      Test
+    &lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+'&gt; should contain the String:&lt;'Your new application is ready.'&gt;
+	at org.fest.assertions.Fail.failure(Fail.java:228)
+	at org.fest.assertions.Assert.failure(Assert.java:149)
+	at org.fest.assertions.StringAssert.contains(StringAssert.java:73)
+	at IntegrationTest$1.invoke(IntegrationTest.java:23)
+	at IntegrationTest$1.invoke(IntegrationTest.java:20)
+	at play.test.Helpers.running(Helpers.java:433)
+	at IntegrationTest.test(IntegrationTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at com.novocode.junit.JUnitRunner.run(JUnitRunner.java:90)
+	at sbt.RunnerWrapper$1.runRunner2(FrameworkWrapper.java:220)
+	at sbt.RunnerWrapper$1.execute(FrameworkWrapper.java:233)
+	at sbt.ForkMain$Run.runTest(ForkMain.java:239)
+	at sbt.ForkMain$Run.runTestSafe(ForkMain.java:211)
+	at sbt.ForkMain$Run.runTests(ForkMain.java:187)
+	at sbt.ForkMain$Run.run(ForkMain.java:251)
+	at sbt.ForkMain.main(ForkMain.java:97)
+
+            </failure>
     </testcase>
         <system-out>
           

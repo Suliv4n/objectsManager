@@ -25,6 +25,10 @@ public class Effet{
 		return this.type;
 	}
 	
+	public int getPuissance()
+	{
+		return puissance;
+	}
 	
 
 }

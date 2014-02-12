@@ -26,6 +26,11 @@ public class Personne extends Objet{
 			return inventaire;
 	}
 	
+	public int getPV()
+	{
+		return pv;
+	}
+	
 	public void updatePV(int delta)
 	{
 		pv += delta;
