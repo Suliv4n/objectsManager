@@ -5,6 +5,9 @@ import java.util.Map;
 
 
 import com.fasterxml.jackson.databind.JsonNode;
+
+import models.*;
+
 import org.junit.*;
 
 import play.mvc.*;
@@ -20,9 +23,6 @@ import static play.test.Helpers.*;
 import static org.fest.assertions.Assertions.*;
 
 import models.*;
-
-
-import models.Objet;
 
 /**
 *
@@ -44,7 +44,8 @@ public class ApplicationTest {
         assertThat(contentType(html)).isEqualTo("text/html");
         assertThat(contentAsString(html)).contains("Your new application is ready.");
     }
-    
+
+    @Test
     public void nomObjet(){
 		Objet o = new Objet("Arme",15);
 		assertThat(o.getNom()).isEqualTo("Arme");
@@ -117,15 +118,43 @@ public class ApplicationTest {
     @Test
 	public void NomObjetInventaire(){
 		Inventaire i= new Inventaire(20);
-		assertThat(i.getObjetInventaire(0)).isEqualTo("objet");
+		i.addObjet("objet",200,true,0);
+		assertThat(i.getObjetInventaire(0).getNom()).isEqualTo("objet");
     }
     
     @Test
 	public void NomObjetInventaire2(){
 		Inventaire i= new Inventaire(20);
-		assertThat(i.getObjetInventaire(1)).isEqualTo("objet2");
+		i.addObjet("objet2",200,true,1);
+		assertThat(i.getObjetInventaire(1).getNom()).isEqualTo("objet2");
+    }
+    @Test
+	public void AjouterObjetInventaire(){
+		Inventaire i= new Inventaire(20);
+		i.addObjet("objet3",200,true,2);
+		assertThat(i.getObjetInventaire(2).getNom()).isEqualTo("objet3");
+    }
+   
+    @Test
+	public void SupprimerObjetInventaire(){
+		Inventaire i= new Inventaire(20);
+		i.addObjet("objet3",200,true,2);
+		i.delObjet(2);
+		assertThat(i.getObjetInventaire(2)).isNull();
+    }
+    
+    @Test
+	public void DeplacerObjetInventaire(){
+		Inventaire i= new Inventaire(20);
+		i.addObjet("objet1",200,true,0);
+		i.addObjet("objet2",400,false,1);
+		i.addObjet("objet3",230,true,2);
+		i.deplacerObjet(2,1);
+
+		assertThat(i.getObjetInventaire(1).getNom()).isEqualTo("objet3");
     }
 
+	
    @Test
     public void personne(){
 		Personne p = new Personne("Bob", 10);

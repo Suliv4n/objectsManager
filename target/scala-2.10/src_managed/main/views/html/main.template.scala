@@ -53,10 +53,17 @@ Seq[Any](format.raw/*1.32*/("""
 }
                 /*
                     -- GENERATED --
+<<<<<<< HEAD
                     DATE: Mon Feb 10 21:48:41 CET 2014
                     SOURCE: C:/Users/Darklev/Desktop/Objects manager/app/views/main.scala.html
                     HASH: 9378845a04f58cfd42e1e2d7ffea26d4f294edad
                     MATRIX: 778->1|902->31|996->90|1022->95|1120->158|1134->164|1189->198|1286->260|1300->266|1353->298|1415->324|1430->330|1497->375|1603->445|1632->452
+=======
+                    DATE: Tue Feb 11 12:38:37 CET 2014
+                    SOURCE: /home/becu/Projet_object/objectsManager/app/views/main.scala.html
+                    HASH: 269b46d0510c6906d1a4d27ca715f76cc91ac485
+                    MATRIX: 778->1|902->31|990->84|1016->89|1113->151|1127->157|1182->191|1278->252|1292->258|1345->290|1406->315|1421->321|1488->366|1591->433|1620->440
+>>>>>>> inventaire
                     LINES: 26->1|29->1|35->7|35->7|36->8|36->8|36->8|37->9|37->9|37->9|38->10|38->10|38->10|41->13|41->13
                     -- GENERATED --
                 */

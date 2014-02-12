@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 // @SOURCE:C:/Users/Darklev/Desktop/Objects manager/conf/routes
 // @HASH:01ae574c5f257648dee7f91f5afd4dede098caa1
 // @DATE:Mon Feb 10 21:48:36 CET 2014
+=======
+// @SOURCE:/home/becu/Projet_object/objectsManager/conf/routes
+// @HASH:9c24f09449355737d0bfbe9ca53280febbd777c7
+// @DATE:Tue Feb 11 12:38:35 CET 2014
+>>>>>>> inventaire
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._

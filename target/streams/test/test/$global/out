@@ -1,0 +1,40 @@
+<<<<<<< HEAD
+=======
+[0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
+[0m[[0mdebug[0m] [0mTest [33mIntegrationTest[0m.[36mtest[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mIntegrationTest[0m.[36mtest[0m finished[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 1 total, 4.834s[0m[0m
+[0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mDeplacerObjetInventaire[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mDeplacerObjetInventaire[0m finished[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mNomObjetInventaire2[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mNomObjetInventaire2[0m finished[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mprixObjet[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mprixObjet[0m finished[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36msimpleCheck[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36msimpleCheck[0m finished[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mPersonne_[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mPersonne_[0m finished[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mSupprimerObjetInventaire[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mSupprimerObjetInventaire[0m finished[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mequipableObjet[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mequipableObjet[0m finished[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mTailleInventaire[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mTailleInventaire[0m finished[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mNomObjetInventaire[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mNomObjetInventaire[0m finished[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mrenderTemplate[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mrenderTemplate[0m finished[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mnomObjet[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mnomObjet[0m finished[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mAjouterObjetInventaire[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mAjouterObjetInventaire[0m finished[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 12 total, 0.021s[0m[0m
+[0m[[0mdebug[0m] [0mFramework implementation 'org.specs2.runner.Specs2Framework' not present.[0m
+[0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
+[0m[[0mdebug[0m] [0mSummary for specs2 not available.[0m
+[0m[[0minfo[0m] [0mPassed: Total 13, Failed 0, Errors 0, Passed 13[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	ApplicationTest[0m
+[0m[[0mdebug[0m] [0m	IntegrationTest[0m
+>>>>>>> inventaire

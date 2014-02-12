@@ -28,7 +28,6 @@ public class Objet{
 		this.prix=prix;
 		this.equipable = equipable;
 		this.etat=INTACT;
-
     }
     
     public String getNom(){
