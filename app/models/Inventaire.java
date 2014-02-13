@@ -41,9 +41,13 @@ public class Inventaire extends Model{
 		}
 	public void deplacerObjet(int i, int j){
 		Objet tmp = new Objet(objet[i].getNom(),objet[i].getPrix(),objet[i].estEquipable());
+		Objet tmp2;
+		if(objet[j]==null)
+			tmp2=new Objet(objet[j].getNom(),objet[j].getPrix(),objet[j].estEquipable());
 		delObjet(i);
 		delObjet(j);
 		addObjet(tmp.getNom(),tmp.getPrix(),tmp.estEquipable(),j);
+		addObjet(tmp2.getNom(),tmp.getPrix(),tmp.estEquipable(),i);
 		
 		}
 
