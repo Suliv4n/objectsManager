@@ -1,9 +1,12 @@
+package models;
+
 import java.util.ArrayList;
 import models.*;
 import javax.persistence.*;
  
-import play.db.jpa.*;
+import play.db.ebean.*;
 
+@Inheritance
 public class Potion extends Objet{
 
 	@ManyToMany(mappedBy="effet", cascade=CascadeType.ALL)

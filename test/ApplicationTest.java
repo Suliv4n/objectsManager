@@ -4,6 +4,10 @@ import java.util.List;
 import java.util.Map;
 
 
+import com.avaje.ebean.Ebean;
+import com.avaje.ebean.EbeanServer;
+import com.avaje.ebean.EbeanServerFactory;
+import com.avaje.ebean.config.ServerConfig;
 import com.fasterxml.jackson.databind.JsonNode;
 
 import models.*;
@@ -165,16 +169,16 @@ public class ApplicationTest {
 	@Before
 	public void deleteAll()
 	{
-		Fixtures.deleteAll();
+		//Fixtures.deleteAll();
 	}
 	
 	@Test
 	public void testPersistanceObjet()
 	{
-		Personne p = new Personne("Draven",10);
-		p.save();
-		
-		assertEquals(1,);
+		Objet o = new Personne("Tarte au citron",10);
+		o.save();
+		System.out.println(Ebean.getServer("default").toString());
+		assertThat(((Objet)Ebean.getServer("default").find(Objet.class).where("nom LIKE \"Tarte au citron\"")).getNom()).isEqualTo("Tarte au citron");
 	}
 
 }

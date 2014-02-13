@@ -2,9 +2,9 @@ package models;
 import models.*;
 import javax.persistence.*;
  
-import play.db.jpa.*;
+import play.db.ebean.*;
 
-
+@Inheritance
 public class Personne extends Objet{
 
 	@OneToOne
@@ -12,7 +12,6 @@ public class Personne extends Objet{
 	
 	private int pv;
 	private int pvmax;
-	private String nom;
 	
 	public Personne(String nom, int i){
 			super(nom);
@@ -32,6 +31,7 @@ public class Personne extends Objet{
 	public Inventaire getInventaire(){
 			return inventaire;
 	}
+	
 	
 	public int getPV()
 	{

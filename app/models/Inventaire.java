@@ -1,15 +1,13 @@
 package models;
-import models.*;
 import javax.persistence.*;
  
-import play.db.jpa.*;
+import play.db.ebean.*;
 
-@Entity
-public class Inventaire {
+@MappedSuperclass
+public class Inventaire extends Model{
 
     int taille;
 	
-	@ManyToOne
     Objet objet[];
 	
     public Inventaire(int i){
@@ -29,6 +27,12 @@ public class Inventaire {
 			this.objet[index]=new Objet(nom,prix,equ);
 		}
 	}
+	
+	public void addObjet(Objet objet, int index){
+		if(this.objet[index]== null){
+			this.objet[index]=objet;
+		}
+	}
 		
 	public void delObjet(int index){
 		if(this.objet[index]!= null)
@@ -42,5 +46,7 @@ public class Inventaire {
 		addObjet(tmp.getNom(),tmp.getPrix(),tmp.estEquipable(),j);
 		
 		}
+
+
 }
 

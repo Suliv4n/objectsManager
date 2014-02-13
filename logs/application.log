@@ -1,12 +1,12 @@
-2014-02-12 18:32:06,625 - [INFO] - from play in pool-4-thread-2 
-Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+2014-02-12 21:56:28,564 - [INFO] - from play in pool-4-thread-2 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8080
 
-2014-02-12 18:33:06,249 - [ERROR] - from application in New I/O worker #1 
+2014-02-12 21:57:21,377 - [ERROR] - from application in New I/O worker #1 
 
 
-! @6h8l560bm - Internal server error, for (GET) [/] ->
+! @6h8m6179e - Internal server error, for (GET) [/] ->
 
-play.PlayExceptions$CompilationException: Compilation error[error: invalid method declaration; return type required]
+play.PlayExceptions$CompilationException: Compilation error[error: no suitable constructor found for Objet(String,int,int)]
 	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
 	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
 	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
@@ -27,15 +27,15 @@ play.PlayExceptions$CompilationException: Compilation error[error: invalid metho
 	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
 	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
 
-2014-02-12 18:33:06,519 - [WARN] - from play in New I/O worker #1 
+2014-02-12 21:57:21,651 - [WARN] - from play in New I/O worker #1 
 No application found at invoker init
 
-2014-02-12 18:33:39,793 - [ERROR] - from application in New I/O worker #1 
+2014-02-12 21:57:26,504 - [ERROR] - from application in New I/O worker #1 
 
 
-! @6h8l57o3n - Internal server error, for (GET) [/] ->
+! @6h8m61epf - Internal server error, for (GET) [/favicon.ico] ->
 
-play.PlayExceptions$CompilationException: Compilation error[error: method render in class index cannot be applied to given types;]
+play.PlayExceptions$CompilationException: Compilation error[error: no suitable constructor found for Objet(String,int,int)]
 	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
 	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
 	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
@@ -56,12 +56,12 @@ play.PlayExceptions$CompilationException: Compilation error[error: method render
 	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
 	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
 
-2014-02-12 18:34:09,590 - [ERROR] - from application in New I/O worker #1 
+2014-02-12 21:57:29,427 - [ERROR] - from application in New I/O worker #2 
 
 
-! @6h8l59g5f - Internal server error, for (GET) [/] ->
+! @6h8m61j72 - Internal server error, for (GET) [/] ->
 
-play.PlayExceptions$CompilationException: Compilation error[Cannot use a method returning Unit as an Handler]
+play.PlayExceptions$CompilationException: Compilation error[error: no suitable constructor found for Objet(String,int,int)]
 	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
 	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
 	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
@@ -82,12 +82,12 @@ play.PlayExceptions$CompilationException: Compilation error[Cannot use a method 
 	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
 	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
 
-2014-02-12 18:34:21,035 - [ERROR] - from application in New I/O worker #1 
+2014-02-12 21:57:31,893 - [ERROR] - from application in New I/O worker #1 
 
 
-! @6h8l5a744 - Internal server error, for (GET) [/] ->
+! @6h8m61mp4 - Internal server error, for (GET) [/favicon.ico] ->
 
-play.PlayExceptions$CompilationException: Compilation error[Cannot use a method returning Unit as an Handler]
+play.PlayExceptions$CompilationException: Compilation error[error: no suitable constructor found for Objet(String,int,int)]
 	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
 	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
 	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
@@ -108,12 +108,1352 @@ play.PlayExceptions$CompilationException: Compilation error[Cannot use a method 
 	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
 	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
 
-2014-02-12 18:34:32,664 - [ERROR] - from application in New I/O worker #1 
+2014-02-12 21:59:09,057 - [ERROR] - from application in New I/O worker #2 
 
 
-! @6h8l5ao9a - Internal server error, for (GET) [/] ->
+! @6h8m67ai5 - Internal server error, for (GET) [/] ->
 
-play.PlayExceptions$CompilationException: Compilation error[Cannot use a method returning Unit as an Handler]
+play.api.Configuration$$anon$1: Configuration error[Driver not found: [com.mysql.jdbc.Driver]]
+	at play.api.Configuration$.play$api$Configuration$$configError(Configuration.scala:92) ~[play_2.10.jar:2.2.1]
+	at play.api.Configuration.reportError(Configuration.scala:570) ~[play_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi.play$api$db$BoneCPApi$$register(DB.scala:286) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi$$anonfun$6.apply(DB.scala:404) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi$$anonfun$6.apply(DB.scala:400) ~[play-jdbc_2.10.jar:2.2.1]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:74) ~[scala-library.jar:na]
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:47) ~[scala-library.jar:na]
+	at scala.collection.SetLike$class.map(SetLike.scala:93) ~[scala-library.jar:na]
+	at scala.collection.AbstractSet.map(Set.scala:47) ~[scala-library.jar:na]
+	at play.api.db.BoneCPApi.<init>(DB.scala:400) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.play$api$db$BoneCPPlugin$$dbApi$lzycompute(DB.scala:215) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.play$api$db$BoneCPPlugin$$dbApi(DB.scala:215) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.onStart(DB.scala:243) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[na:1.7.0_45]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[na:1.7.0_45]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.7.0_45]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.Class.forName0(Native Method) ~[na:1.7.0_45]
+	at java.lang.Class.forName(Unknown Source) ~[na:1.7.0_45]
+	at play.api.db.BoneCPApi.play$api$db$BoneCPApi$$register(DB.scala:284) ~[play-jdbc_2.10.jar:2.2.1]
+	... 36 common frames omitted
+
+2014-02-12 22:01:07,360 - [WARN] - from play in play-internal-execution-context-1 
+Error stopping plugin
+play.api.Configuration$$anon$1: Configuration error[Driver not found: [com.mysql.jdbc.Driver]]
+	at play.api.Configuration$.play$api$Configuration$$configError(Configuration.scala:92) ~[play_2.10.jar:2.2.1]
+	at play.api.Configuration.reportError(Configuration.scala:570) ~[play_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi.play$api$db$BoneCPApi$$register(DB.scala:286) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi$$anonfun$6.apply(DB.scala:404) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi$$anonfun$6.apply(DB.scala:400) ~[play-jdbc_2.10.jar:2.2.1]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:74) ~[scala-library.jar:na]
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:47) ~[scala-library.jar:na]
+	at scala.collection.SetLike$class.map(SetLike.scala:93) ~[scala-library.jar:na]
+	at scala.collection.AbstractSet.map(Set.scala:47) ~[scala-library.jar:na]
+	at play.api.db.BoneCPApi.<init>(DB.scala:400) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.play$api$db$BoneCPPlugin$$dbApi$lzycompute(DB.scala:215) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.play$api$db$BoneCPPlugin$$dbApi(DB.scala:215) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.onStop(DB.scala:262) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1$$anonfun$apply$mcV$sp$2.apply(Play.scala:105) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1$$anonfun$apply$mcV$sp$2.apply(Play.scala:104) [play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) [scala-library.jar:na]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1.apply$mcV$sp(Play.scala:104) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1.apply(Play.scala:104) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1.apply(Play.scala:104) [play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$stop$1.apply(Play.scala:103) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$stop$1.apply(Play.scala:102) [play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) [scala-library.jar:na]
+	at play.api.Play$.stop(Play.scala:102) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:124) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) [play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library.jar:na]
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[na:1.7.0_45]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[na:1.7.0_45]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.7.0_45]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.Class.forName0(Native Method) ~[na:1.7.0_45]
+	at java.lang.Class.forName(Unknown Source) ~[na:1.7.0_45]
+	at play.api.db.BoneCPApi.play$api$db$BoneCPApi$$register(DB.scala:284) ~[play-jdbc_2.10.jar:2.2.1]
+	... 39 common frames omitted
+
+2014-02-12 22:01:07,771 - [ERROR] - from application in New I/O worker #3 
+
+
+! @6h8m6e488 - Internal server error, for (GET) [/] ->
+
+play.api.Configuration$$anon$1: Configuration error[DB plugin is not registered.]
+	at play.api.Configuration$.play$api$Configuration$$configError(Configuration.scala:92) ~[play_2.10.jar:2.2.1]
+	at play.api.Configuration.reportError(Configuration.scala:570) ~[play_2.10.jar:2.2.1]
+	at play.Configuration.reportError(Configuration.java:298) ~[play_2.10.jar:2.2.1]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:47) ~[play-java-ebean_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+Caused by: java.lang.Exception: DB plugin is not registered.
+	at play.api.db.DB$.play$api$db$DB$$error(DB.scala:123) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.DB$$anonfun$getDataSource$2.apply(DB.scala:142) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.DB$$anonfun$getDataSource$2.apply(DB.scala:142) ~[play-jdbc_2.10.jar:2.2.1]
+	at scala.Option.getOrElse(Option.scala:120) ~[scala-library.jar:na]
+	at play.api.db.DB$.getDataSource(DB.scala:142) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.DB.getDataSource(DB.scala) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.db.DB.getDataSource(DB.java:22) ~[play-java-jdbc_2.10.jar:2.2.1]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:45) ~[play-java-ebean_2.10.jar:2.2.1]
+	... 23 common frames omitted
+
+2014-02-12 22:01:40,427 - [ERROR] - from application in New I/O worker #3 
+
+
+! @6h8m6g0g1 - Internal server error, for (GET) [/] ->
+
+play.api.Configuration$$anon$1: Configuration error[DB plugin is not registered.]
+	at play.api.Configuration$.play$api$Configuration$$configError(Configuration.scala:92) ~[play_2.10.jar:2.2.1]
+	at play.api.Configuration.reportError(Configuration.scala:570) ~[play_2.10.jar:2.2.1]
+	at play.Configuration.reportError(Configuration.java:298) ~[play_2.10.jar:2.2.1]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:47) ~[play-java-ebean_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+Caused by: java.lang.Exception: DB plugin is not registered.
+	at play.api.db.DB$.play$api$db$DB$$error(DB.scala:123) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.DB$$anonfun$getDataSource$2.apply(DB.scala:142) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.DB$$anonfun$getDataSource$2.apply(DB.scala:142) ~[play-jdbc_2.10.jar:2.2.1]
+	at scala.Option.getOrElse(Option.scala:120) ~[scala-library.jar:na]
+	at play.api.db.DB$.getDataSource(DB.scala:142) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.DB.getDataSource(DB.scala) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.db.DB.getDataSource(DB.java:22) ~[play-java-jdbc_2.10.jar:2.2.1]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:45) ~[play-java-ebean_2.10.jar:2.2.1]
+	... 23 common frames omitted
+
+2014-02-12 22:02:52,988 - [ERROR] - from application in New I/O worker #3 
+
+
+! @6h8m6k3kf - Internal server error, for (GET) [/] ->
+
+play.api.Configuration$$anon$1: Configuration error[DB plugin is not registered.]
+	at play.api.Configuration$.play$api$Configuration$$configError(Configuration.scala:92) ~[play_2.10.jar:2.2.1]
+	at play.api.Configuration.reportError(Configuration.scala:570) ~[play_2.10.jar:2.2.1]
+	at play.Configuration.reportError(Configuration.java:298) ~[play_2.10.jar:2.2.1]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:47) ~[play-java-ebean_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+Caused by: java.lang.Exception: DB plugin is not registered.
+	at play.api.db.DB$.play$api$db$DB$$error(DB.scala:123) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.DB$$anonfun$getDataSource$2.apply(DB.scala:142) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.DB$$anonfun$getDataSource$2.apply(DB.scala:142) ~[play-jdbc_2.10.jar:2.2.1]
+	at scala.Option.getOrElse(Option.scala:120) ~[scala-library.jar:na]
+	at play.api.db.DB$.getDataSource(DB.scala:142) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.DB.getDataSource(DB.scala) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.db.DB.getDataSource(DB.java:22) ~[play-java-jdbc_2.10.jar:2.2.1]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:45) ~[play-java-ebean_2.10.jar:2.2.1]
+	... 23 common frames omitted
+
+2014-02-12 22:05:38,837 - [ERROR] - from application in New I/O worker #4 
+
+
+! @6h8m73f7p - Internal server error, for (GET) [/] ->
+
+play.api.Configuration$$anon$1: Configuration error[DB plugin is not registered.]
+	at play.api.Configuration$.play$api$Configuration$$configError(Configuration.scala:92) ~[play_2.10.jar:2.2.1]
+	at play.api.Configuration.reportError(Configuration.scala:570) ~[play_2.10.jar:2.2.1]
+	at play.Configuration.reportError(Configuration.java:298) ~[play_2.10.jar:2.2.1]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:47) ~[play-java-ebean_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+Caused by: java.lang.Exception: DB plugin is not registered.
+	at play.api.db.DB$.play$api$db$DB$$error(DB.scala:123) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.DB$$anonfun$getDataSource$2.apply(DB.scala:142) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.DB$$anonfun$getDataSource$2.apply(DB.scala:142) ~[play-jdbc_2.10.jar:2.2.1]
+	at scala.Option.getOrElse(Option.scala:120) ~[scala-library.jar:na]
+	at play.api.db.DB$.getDataSource(DB.scala:142) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.DB.getDataSource(DB.scala) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.db.DB.getDataSource(DB.java:22) ~[play-java-jdbc_2.10.jar:2.2.1]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:45) ~[play-java-ebean_2.10.jar:2.2.1]
+	... 23 common frames omitted
+
+2014-02-12 22:09:44,237 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6h8m7he82 - Internal server error, for (GET) [/] ->
+
+play.api.Configuration$$anon$1: Configuration error[Driver not found: [orh.h2.Driver]]
+	at play.api.Configuration$.play$api$Configuration$$configError(Configuration.scala:92) ~[play_2.10.jar:2.2.1]
+	at play.api.Configuration.reportError(Configuration.scala:570) ~[play_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi.play$api$db$BoneCPApi$$register(DB.scala:286) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi$$anonfun$6.apply(DB.scala:404) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi$$anonfun$6.apply(DB.scala:400) ~[play-jdbc_2.10.jar:2.2.1]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:74) ~[scala-library.jar:na]
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:47) ~[scala-library.jar:na]
+	at scala.collection.SetLike$class.map(SetLike.scala:93) ~[scala-library.jar:na]
+	at scala.collection.AbstractSet.map(Set.scala:47) ~[scala-library.jar:na]
+	at play.api.db.BoneCPApi.<init>(DB.scala:400) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.play$api$db$BoneCPPlugin$$dbApi$lzycompute(DB.scala:215) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.play$api$db$BoneCPPlugin$$dbApi(DB.scala:215) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.onStart(DB.scala:243) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+Caused by: java.lang.ClassNotFoundException: orh.h2.Driver
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[na:1.7.0_45]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[na:1.7.0_45]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.7.0_45]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.Class.forName0(Native Method) ~[na:1.7.0_45]
+	at java.lang.Class.forName(Unknown Source) ~[na:1.7.0_45]
+	at play.api.db.BoneCPApi.play$api$db$BoneCPApi$$register(DB.scala:284) ~[play-jdbc_2.10.jar:2.2.1]
+	... 36 common frames omitted
+
+2014-02-12 22:10:03,451 - [WARN] - from play in play-internal-execution-context-1 
+Error stopping plugin
+play.api.Configuration$$anon$1: Configuration error[Driver not found: [orh.h2.Driver]]
+	at play.api.Configuration$.play$api$Configuration$$configError(Configuration.scala:92) ~[play_2.10.jar:2.2.1]
+	at play.api.Configuration.reportError(Configuration.scala:570) ~[play_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi.play$api$db$BoneCPApi$$register(DB.scala:286) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi$$anonfun$6.apply(DB.scala:404) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi$$anonfun$6.apply(DB.scala:400) ~[play-jdbc_2.10.jar:2.2.1]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:74) ~[scala-library.jar:na]
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:47) ~[scala-library.jar:na]
+	at scala.collection.SetLike$class.map(SetLike.scala:93) ~[scala-library.jar:na]
+	at scala.collection.AbstractSet.map(Set.scala:47) ~[scala-library.jar:na]
+	at play.api.db.BoneCPApi.<init>(DB.scala:400) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.play$api$db$BoneCPPlugin$$dbApi$lzycompute(DB.scala:215) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.play$api$db$BoneCPPlugin$$dbApi(DB.scala:215) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.onStop(DB.scala:262) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1$$anonfun$apply$mcV$sp$2.apply(Play.scala:105) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1$$anonfun$apply$mcV$sp$2.apply(Play.scala:104) [play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) [scala-library.jar:na]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1.apply$mcV$sp(Play.scala:104) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1.apply(Play.scala:104) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1.apply(Play.scala:104) [play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$stop$1.apply(Play.scala:103) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$stop$1.apply(Play.scala:102) [play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) [scala-library.jar:na]
+	at play.api.Play$.stop(Play.scala:102) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:124) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) [play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library.jar:na]
+Caused by: java.lang.ClassNotFoundException: orh.h2.Driver
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[na:1.7.0_45]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[na:1.7.0_45]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.7.0_45]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.Class.forName0(Native Method) ~[na:1.7.0_45]
+	at java.lang.Class.forName(Unknown Source) ~[na:1.7.0_45]
+	at play.api.db.BoneCPApi.play$api$db$BoneCPApi$$register(DB.scala:284) ~[play-jdbc_2.10.jar:2.2.1]
+	... 39 common frames omitted
+
+2014-02-12 22:10:03,592 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6h8m7igoi - Internal server error, for (GET) [/] ->
+
+play.api.Configuration$$anon$1: Configuration error[Driver not found: [orh.h2.Driver]]
+	at play.api.Configuration$.play$api$Configuration$$configError(Configuration.scala:92) ~[play_2.10.jar:2.2.1]
+	at play.api.Configuration.reportError(Configuration.scala:570) ~[play_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi.play$api$db$BoneCPApi$$register(DB.scala:286) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi$$anonfun$6.apply(DB.scala:404) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi$$anonfun$6.apply(DB.scala:400) ~[play-jdbc_2.10.jar:2.2.1]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:74) ~[scala-library.jar:na]
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:47) ~[scala-library.jar:na]
+	at scala.collection.SetLike$class.map(SetLike.scala:93) ~[scala-library.jar:na]
+	at scala.collection.AbstractSet.map(Set.scala:47) ~[scala-library.jar:na]
+	at play.api.db.BoneCPApi.<init>(DB.scala:400) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.play$api$db$BoneCPPlugin$$dbApi$lzycompute(DB.scala:215) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.play$api$db$BoneCPPlugin$$dbApi(DB.scala:215) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.onStart(DB.scala:243) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+Caused by: java.lang.ClassNotFoundException: orh.h2.Driver
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[na:1.7.0_45]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[na:1.7.0_45]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.7.0_45]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.Class.forName0(Native Method) ~[na:1.7.0_45]
+	at java.lang.Class.forName(Unknown Source) ~[na:1.7.0_45]
+	at play.api.db.BoneCPApi.play$api$db$BoneCPApi$$register(DB.scala:284) ~[play-jdbc_2.10.jar:2.2.1]
+	... 36 common frames omitted
+
+2014-02-12 22:13:26,504 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6h8m7igoi - Internal server error, for (GET) [/] ->
+
+play.api.Configuration$$anon$1: Configuration error[Driver not found: [orh.h2.Driver]]
+	at play.api.Configuration$.play$api$Configuration$$configError(Configuration.scala:92) ~[play_2.10.jar:2.2.1]
+	at play.api.Configuration.reportError(Configuration.scala:570) ~[play_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi.play$api$db$BoneCPApi$$register(DB.scala:286) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi$$anonfun$6.apply(DB.scala:404) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi$$anonfun$6.apply(DB.scala:400) ~[play-jdbc_2.10.jar:2.2.1]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:74) ~[scala-library.jar:na]
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:47) ~[scala-library.jar:na]
+	at scala.collection.SetLike$class.map(SetLike.scala:93) ~[scala-library.jar:na]
+	at scala.collection.AbstractSet.map(Set.scala:47) ~[scala-library.jar:na]
+	at play.api.db.BoneCPApi.<init>(DB.scala:400) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.play$api$db$BoneCPPlugin$$dbApi$lzycompute(DB.scala:215) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.play$api$db$BoneCPPlugin$$dbApi(DB.scala:215) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.onStart(DB.scala:243) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+Caused by: java.lang.ClassNotFoundException: orh.h2.Driver
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[na:1.7.0_45]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[na:1.7.0_45]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.7.0_45]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.Class.forName0(Native Method) ~[na:1.7.0_45]
+	at java.lang.Class.forName(Unknown Source) ~[na:1.7.0_45]
+	at play.api.db.BoneCPApi.play$api$db$BoneCPApi$$register(DB.scala:284) ~[play-jdbc_2.10.jar:2.2.1]
+	... 36 common frames omitted
+
+2014-02-12 22:13:28,654 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6h8m7igoi - Internal server error, for (GET) [/] ->
+
+play.api.Configuration$$anon$1: Configuration error[Driver not found: [orh.h2.Driver]]
+	at play.api.Configuration$.play$api$Configuration$$configError(Configuration.scala:92) ~[play_2.10.jar:2.2.1]
+	at play.api.Configuration.reportError(Configuration.scala:570) ~[play_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi.play$api$db$BoneCPApi$$register(DB.scala:286) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi$$anonfun$6.apply(DB.scala:404) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi$$anonfun$6.apply(DB.scala:400) ~[play-jdbc_2.10.jar:2.2.1]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:74) ~[scala-library.jar:na]
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:47) ~[scala-library.jar:na]
+	at scala.collection.SetLike$class.map(SetLike.scala:93) ~[scala-library.jar:na]
+	at scala.collection.AbstractSet.map(Set.scala:47) ~[scala-library.jar:na]
+	at play.api.db.BoneCPApi.<init>(DB.scala:400) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.play$api$db$BoneCPPlugin$$dbApi$lzycompute(DB.scala:215) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.play$api$db$BoneCPPlugin$$dbApi(DB.scala:215) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.onStart(DB.scala:243) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+Caused by: java.lang.ClassNotFoundException: orh.h2.Driver
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[na:1.7.0_45]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[na:1.7.0_45]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.7.0_45]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.Class.forName0(Native Method) ~[na:1.7.0_45]
+	at java.lang.Class.forName(Unknown Source) ~[na:1.7.0_45]
+	at play.api.db.BoneCPApi.play$api$db$BoneCPApi$$register(DB.scala:284) ~[play-jdbc_2.10.jar:2.2.1]
+	... 36 common frames omitted
+
+2014-02-12 22:13:29,700 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6h8m7igoi - Internal server error, for (GET) [/] ->
+
+play.api.Configuration$$anon$1: Configuration error[Driver not found: [orh.h2.Driver]]
+	at play.api.Configuration$.play$api$Configuration$$configError(Configuration.scala:92) ~[play_2.10.jar:2.2.1]
+	at play.api.Configuration.reportError(Configuration.scala:570) ~[play_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi.play$api$db$BoneCPApi$$register(DB.scala:286) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi$$anonfun$6.apply(DB.scala:404) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi$$anonfun$6.apply(DB.scala:400) ~[play-jdbc_2.10.jar:2.2.1]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:74) ~[scala-library.jar:na]
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:47) ~[scala-library.jar:na]
+	at scala.collection.SetLike$class.map(SetLike.scala:93) ~[scala-library.jar:na]
+	at scala.collection.AbstractSet.map(Set.scala:47) ~[scala-library.jar:na]
+	at play.api.db.BoneCPApi.<init>(DB.scala:400) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.play$api$db$BoneCPPlugin$$dbApi$lzycompute(DB.scala:215) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.play$api$db$BoneCPPlugin$$dbApi(DB.scala:215) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.onStart(DB.scala:243) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+Caused by: java.lang.ClassNotFoundException: orh.h2.Driver
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[na:1.7.0_45]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[na:1.7.0_45]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.7.0_45]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.Class.forName0(Native Method) ~[na:1.7.0_45]
+	at java.lang.Class.forName(Unknown Source) ~[na:1.7.0_45]
+	at play.api.db.BoneCPApi.play$api$db$BoneCPApi$$register(DB.scala:284) ~[play-jdbc_2.10.jar:2.2.1]
+	... 36 common frames omitted
+
+2014-02-12 22:14:17,370 - [WARN] - from play in play-internal-execution-context-1 
+Error stopping plugin
+play.api.Configuration$$anon$1: Configuration error[Driver not found: [orh.h2.Driver]]
+	at play.api.Configuration$.play$api$Configuration$$configError(Configuration.scala:92) ~[play_2.10.jar:2.2.1]
+	at play.api.Configuration.reportError(Configuration.scala:570) ~[play_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi.play$api$db$BoneCPApi$$register(DB.scala:286) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi$$anonfun$6.apply(DB.scala:404) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPApi$$anonfun$6.apply(DB.scala:400) ~[play-jdbc_2.10.jar:2.2.1]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:74) ~[scala-library.jar:na]
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:244) ~[scala-library.jar:na]
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:47) ~[scala-library.jar:na]
+	at scala.collection.SetLike$class.map(SetLike.scala:93) ~[scala-library.jar:na]
+	at scala.collection.AbstractSet.map(Set.scala:47) ~[scala-library.jar:na]
+	at play.api.db.BoneCPApi.<init>(DB.scala:400) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.play$api$db$BoneCPPlugin$$dbApi$lzycompute(DB.scala:215) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.play$api$db$BoneCPPlugin$$dbApi(DB.scala:215) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.BoneCPPlugin.onStop(DB.scala:262) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1$$anonfun$apply$mcV$sp$2.apply(Play.scala:105) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1$$anonfun$apply$mcV$sp$2.apply(Play.scala:104) [play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) [scala-library.jar:na]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1.apply$mcV$sp(Play.scala:104) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1.apply(Play.scala:104) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$stop$1$$anonfun$apply$1.apply(Play.scala:104) [play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$stop$1.apply(Play.scala:103) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$stop$1.apply(Play.scala:102) [play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) [scala-library.jar:na]
+	at play.api.Play$.stop(Play.scala:102) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:124) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) [play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library.jar:na]
+Caused by: java.lang.ClassNotFoundException: orh.h2.Driver
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[na:1.7.0_45]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[na:1.7.0_45]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.7.0_45]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.7.0_45]
+	at java.lang.Class.forName0(Native Method) ~[na:1.7.0_45]
+	at java.lang.Class.forName(Unknown Source) ~[na:1.7.0_45]
+	at play.api.db.BoneCPApi.play$api$db$BoneCPApi$$register(DB.scala:284) ~[play-jdbc_2.10.jar:2.2.1]
+	... 39 common frames omitted
+
+2014-02-12 22:14:18,340 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:mem:default
+
+2014-02-12 22:14:20,008 - [ERROR] - from com.avaje.ebeaninternal.server.type.reflect.ImmutableMetaFactory in play-internal-execution-context-1 
+Was unable to use reflection to find a constructor and appropriate getters forimmutable type class [Lmodels.Objet;.  The errors while looking for the getter methods follow:
+
+2014-02-12 22:14:20,008 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties in play-internal-execution-context-1 
+Error with models.Inventaire field:objet
+java.lang.RuntimeException: Unable to use reflection to build ImmutableMeta for class [Lmodels.Objet;.  Associated Errors trying to find a constructor and getter methods have been logged
+	at com.avaje.ebeaninternal.server.type.reflect.ImmutableMetaFactory.createImmutableMeta(ImmutableMetaFactory.java:53) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.type.DefaultTypeManager.recursiveCreateScalarTypes(DefaultTypeManager.java:205) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProp(DeployCreateProperties.java:321) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProp(DeployCreateProperties.java:341) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:128) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:54) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.createDeployBeanInfo(BeanDescriptorManager.java:1036) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readEntityDeploymentInitial(BeanDescriptorManager.java:515) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.deploy(BeanDescriptorManager.java:235) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.InternalConfiguration.<init>(InternalConfiguration.java:114) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:204) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:65) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:58) [avaje-ebeanorm.jar:na]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:79) [play-java-ebean_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) [scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) [play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) [play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library.jar:na]
+
+2014-02-12 22:14:20,048 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager in play-internal-execution-context-1 
+Error in deployment
+java.lang.RuntimeException: Error reading annotations for models.Inventaire
+	at com.avaje.ebeaninternal.server.deploy.parse.ReadAnnotations.readAssociations(ReadAnnotations.java:54) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readDeployAssociations(BeanDescriptorManager.java:1048) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readEntityDeploymentAssociations(BeanDescriptorManager.java:547) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.deploy(BeanDescriptorManager.java:237) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.InternalConfiguration.<init>(InternalConfiguration.java:114) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:204) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:65) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:58) [avaje-ebeanorm.jar:na]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:79) [play-java-ebean_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) [scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) [play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) [play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library.jar:na]
+Caused by: java.lang.RuntimeException: Error with association to [class [Lmodels.Objet;] from [models.Inventaire.objet]. Is class [Lmodels.Objet; registered?
+	at com.avaje.ebeaninternal.server.deploy.parse.AnnotationAssocOnes.readManyToOne(AnnotationAssocOnes.java:165) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.AnnotationAssocOnes.readAssocOne(AnnotationAssocOnes.java:63) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.AnnotationAssocOnes.parse(AnnotationAssocOnes.java:54) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.ReadAnnotations.readAssociations(ReadAnnotations.java:45) ~[avaje-ebeanorm.jar:na]
+	... 31 common frames omitted
+
+2014-02-12 22:14:20,058 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6h8m87691 - Internal server error, for (GET) [/] ->
+
+play.api.UnexpectedException: Unexpected exception[RuntimeException: Error reading annotations for models.Inventaire]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:148) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+Caused by: java.lang.RuntimeException: Error reading annotations for models.Inventaire
+	at com.avaje.ebeaninternal.server.deploy.parse.ReadAnnotations.readAssociations(ReadAnnotations.java:54) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readDeployAssociations(BeanDescriptorManager.java:1048) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readEntityDeploymentAssociations(BeanDescriptorManager.java:547) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.deploy(BeanDescriptorManager.java:237) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.InternalConfiguration.<init>(InternalConfiguration.java:114) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:204) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:65) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:58) ~[avaje-ebeanorm.jar:na]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:79) ~[play-java-ebean_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10.jar:2.2.1]
+	... 14 common frames omitted
+Caused by: java.lang.RuntimeException: Error with association to [class [Lmodels.Objet;] from [models.Inventaire.objet]. Is class [Lmodels.Objet; registered?
+	at com.avaje.ebeaninternal.server.deploy.parse.AnnotationAssocOnes.readManyToOne(AnnotationAssocOnes.java:165) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.AnnotationAssocOnes.readAssocOne(AnnotationAssocOnes.java:63) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.AnnotationAssocOnes.parse(AnnotationAssocOnes.java:54) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.ReadAnnotations.readAssociations(ReadAnnotations.java:45) ~[avaje-ebeanorm.jar:na]
+	... 31 common frames omitted
+
+2014-02-12 22:15:21,418 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:mem:default
+
+2014-02-12 22:15:22,081 - [ERROR] - from com.avaje.ebeaninternal.server.type.reflect.ImmutableMetaFactory in play-internal-execution-context-1 
+Was unable to use reflection to find a constructor and appropriate getters forimmutable type class [Lmodels.Objet;.  The errors while looking for the getter methods follow:
+
+2014-02-12 22:15:22,091 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties in play-internal-execution-context-1 
+Error with models.Inventaire field:objet
+java.lang.RuntimeException: Unable to use reflection to build ImmutableMeta for class [Lmodels.Objet;.  Associated Errors trying to find a constructor and getter methods have been logged
+	at com.avaje.ebeaninternal.server.type.reflect.ImmutableMetaFactory.createImmutableMeta(ImmutableMetaFactory.java:53) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.type.DefaultTypeManager.recursiveCreateScalarTypes(DefaultTypeManager.java:205) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProp(DeployCreateProperties.java:321) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProp(DeployCreateProperties.java:341) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:128) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:54) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.createDeployBeanInfo(BeanDescriptorManager.java:1036) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readEntityDeploymentInitial(BeanDescriptorManager.java:515) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.deploy(BeanDescriptorManager.java:235) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.InternalConfiguration.<init>(InternalConfiguration.java:114) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:204) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:65) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:58) [avaje-ebeanorm.jar:na]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:79) [play-java-ebean_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) [scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) [play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) [play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library.jar:na]
+
+2014-02-12 22:15:22,101 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager in play-internal-execution-context-1 
+Error in deployment
+javax.persistence.PersistenceException: Error with [models.Inventaire] I believe it is not enhanced but it's superClass [class java.lang.Object] is? (You are not allowed to mix enhancement in a single inheritance hierarchy)
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.setBeanReflect(BeanDescriptorManager.java:1357) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.createByteCode(BeanDescriptorManager.java:1154) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readDeployAssociations(BeanDescriptorManager.java:1070) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readEntityDeploymentAssociations(BeanDescriptorManager.java:547) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.deploy(BeanDescriptorManager.java:237) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.InternalConfiguration.<init>(InternalConfiguration.java:114) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:204) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:65) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:58) [avaje-ebeanorm.jar:na]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:79) [play-java-ebean_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) [scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) [play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) [play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library.jar:na]
+Caused by: java.lang.IllegalArgumentException: field [objet] not found in [models.Inventaire][taille]
+	at com.avaje.ebeaninternal.server.reflect.EnhanceBeanReflect.getFieldIndex(EnhanceBeanReflect.java:139) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.reflect.EnhanceBeanReflect.getGetter(EnhanceBeanReflect.java:143) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.setBeanReflect(BeanDescriptorManager.java:1341) ~[avaje-ebeanorm.jar:na]
+	... 32 common frames omitted
+
+2014-02-12 22:15:22,101 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6h8m8ak38 - Internal server error, for (GET) [/] ->
+
+play.api.UnexpectedException: Unexpected exception[PersistenceException: Error with [models.Inventaire] I believe it is not enhanced but it's superClass [class java.lang.Object] is? (You are not allowed to mix enhancement in a single inheritance hierarchy)]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:148) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+Caused by: javax.persistence.PersistenceException: Error with [models.Inventaire] I believe it is not enhanced but it's superClass [class java.lang.Object] is? (You are not allowed to mix enhancement in a single inheritance hierarchy)
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.setBeanReflect(BeanDescriptorManager.java:1357) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.createByteCode(BeanDescriptorManager.java:1154) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readDeployAssociations(BeanDescriptorManager.java:1070) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readEntityDeploymentAssociations(BeanDescriptorManager.java:547) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.deploy(BeanDescriptorManager.java:237) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.InternalConfiguration.<init>(InternalConfiguration.java:114) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:204) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:65) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:58) ~[avaje-ebeanorm.jar:na]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:79) ~[play-java-ebean_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10.jar:2.2.1]
+	... 14 common frames omitted
+Caused by: java.lang.IllegalArgumentException: field [objet] not found in [models.Inventaire][taille]
+	at com.avaje.ebeaninternal.server.reflect.EnhanceBeanReflect.getFieldIndex(EnhanceBeanReflect.java:139) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.reflect.EnhanceBeanReflect.getGetter(EnhanceBeanReflect.java:143) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.setBeanReflect(BeanDescriptorManager.java:1341) ~[avaje-ebeanorm.jar:na]
+	... 32 common frames omitted
+
+2014-02-12 22:17:08,627 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:mem:default
+
+2014-02-12 22:17:09,259 - [ERROR] - from com.avaje.ebeaninternal.server.type.reflect.ImmutableMetaFactory in play-internal-execution-context-1 
+Was unable to use reflection to find a constructor and appropriate getters forimmutable type class [Lmodels.Objet;.  The errors while looking for the getter methods follow:
+
+2014-02-12 22:17:09,259 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties in play-internal-execution-context-1 
+Error with models.Inventaire field:objet
+java.lang.RuntimeException: Unable to use reflection to build ImmutableMeta for class [Lmodels.Objet;.  Associated Errors trying to find a constructor and getter methods have been logged
+	at com.avaje.ebeaninternal.server.type.reflect.ImmutableMetaFactory.createImmutableMeta(ImmutableMetaFactory.java:53) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.type.DefaultTypeManager.recursiveCreateScalarTypes(DefaultTypeManager.java:205) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProp(DeployCreateProperties.java:321) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProp(DeployCreateProperties.java:341) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:128) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:54) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.createDeployBeanInfo(BeanDescriptorManager.java:1036) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readEntityDeploymentInitial(BeanDescriptorManager.java:515) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.deploy(BeanDescriptorManager.java:235) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.InternalConfiguration.<init>(InternalConfiguration.java:114) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:204) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:65) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:58) [avaje-ebeanorm.jar:na]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:79) [play-java-ebean_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) [scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) [play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) [play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library.jar:na]
+
+2014-02-12 22:17:09,259 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager in play-internal-execution-context-1 
+Error in deployment
+javax.persistence.PersistenceException: Error with [models.Inventaire] I believe it is not enhanced but it's superClass [class play.db.ebean.Model] is? (You are not allowed to mix enhancement in a single inheritance hierarchy)
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.setBeanReflect(BeanDescriptorManager.java:1357) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.createByteCode(BeanDescriptorManager.java:1154) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readDeployAssociations(BeanDescriptorManager.java:1070) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readEntityDeploymentAssociations(BeanDescriptorManager.java:547) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.deploy(BeanDescriptorManager.java:237) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.InternalConfiguration.<init>(InternalConfiguration.java:114) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:204) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:65) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:58) [avaje-ebeanorm.jar:na]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:79) [play-java-ebean_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) [scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) [play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) [play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library.jar:na]
+Caused by: java.lang.IllegalArgumentException: field [objet] not found in [models.Inventaire][_idGetSet, taille]
+	at com.avaje.ebeaninternal.server.reflect.EnhanceBeanReflect.getFieldIndex(EnhanceBeanReflect.java:139) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.reflect.EnhanceBeanReflect.getGetter(EnhanceBeanReflect.java:143) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.setBeanReflect(BeanDescriptorManager.java:1341) ~[avaje-ebeanorm.jar:na]
+	... 32 common frames omitted
+
+2014-02-12 22:17:09,269 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6h8m8gmh4 - Internal server error, for (GET) [/] ->
+
+play.api.UnexpectedException: Unexpected exception[PersistenceException: Error with [models.Inventaire] I believe it is not enhanced but it's superClass [class play.db.ebean.Model] is? (You are not allowed to mix enhancement in a single inheritance hierarchy)]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:148) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+Caused by: javax.persistence.PersistenceException: Error with [models.Inventaire] I believe it is not enhanced but it's superClass [class play.db.ebean.Model] is? (You are not allowed to mix enhancement in a single inheritance hierarchy)
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.setBeanReflect(BeanDescriptorManager.java:1357) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.createByteCode(BeanDescriptorManager.java:1154) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readDeployAssociations(BeanDescriptorManager.java:1070) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readEntityDeploymentAssociations(BeanDescriptorManager.java:547) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.deploy(BeanDescriptorManager.java:237) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.InternalConfiguration.<init>(InternalConfiguration.java:114) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:204) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:65) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:58) ~[avaje-ebeanorm.jar:na]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:79) ~[play-java-ebean_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10.jar:2.2.1]
+	... 14 common frames omitted
+Caused by: java.lang.IllegalArgumentException: field [objet] not found in [models.Inventaire][_idGetSet, taille]
+	at com.avaje.ebeaninternal.server.reflect.EnhanceBeanReflect.getFieldIndex(EnhanceBeanReflect.java:139) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.reflect.EnhanceBeanReflect.getGetter(EnhanceBeanReflect.java:143) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.setBeanReflect(BeanDescriptorManager.java:1341) ~[avaje-ebeanorm.jar:na]
+	... 32 common frames omitted
+
+2014-02-12 22:17:20,702 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:mem:default
+
+2014-02-12 22:17:21,657 - [ERROR] - from com.avaje.ebeaninternal.server.type.reflect.ImmutableMetaFactory in play-internal-execution-context-1 
+Was unable to use reflection to find a constructor and appropriate getters forimmutable type class [Lmodels.Objet;.  The errors while looking for the getter methods follow:
+
+2014-02-12 22:17:21,659 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties in play-internal-execution-context-1 
+Error with models.Inventaire field:objet
+java.lang.RuntimeException: Unable to use reflection to build ImmutableMeta for class [Lmodels.Objet;.  Associated Errors trying to find a constructor and getter methods have been logged
+	at com.avaje.ebeaninternal.server.type.reflect.ImmutableMetaFactory.createImmutableMeta(ImmutableMetaFactory.java:53) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.type.DefaultTypeManager.recursiveCreateScalarTypes(DefaultTypeManager.java:205) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProp(DeployCreateProperties.java:321) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProp(DeployCreateProperties.java:341) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:128) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:54) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.createDeployBeanInfo(BeanDescriptorManager.java:1036) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readEntityDeploymentInitial(BeanDescriptorManager.java:515) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.deploy(BeanDescriptorManager.java:235) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.InternalConfiguration.<init>(InternalConfiguration.java:114) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:204) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:65) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:58) [avaje-ebeanorm.jar:na]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:79) [play-java-ebean_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) [scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) [play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) [play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library.jar:na]
+
+2014-02-12 22:17:21,682 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager in play-internal-execution-context-1 
+Error in deployment
+javax.persistence.PersistenceException: Error with [models.Inventaire] I believe it is not enhanced but it's superClass [class play.db.ebean.Model] is? (You are not allowed to mix enhancement in a single inheritance hierarchy)
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.setBeanReflect(BeanDescriptorManager.java:1357) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.createByteCode(BeanDescriptorManager.java:1154) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readDeployAssociations(BeanDescriptorManager.java:1070) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readEntityDeploymentAssociations(BeanDescriptorManager.java:547) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.deploy(BeanDescriptorManager.java:237) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.InternalConfiguration.<init>(InternalConfiguration.java:114) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:204) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:65) [avaje-ebeanorm.jar:na]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:58) [avaje-ebeanorm.jar:na]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:79) [play-java-ebean_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) [scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) [play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) [play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) [scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) [play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) [play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library.jar:na]
+Caused by: java.lang.IllegalArgumentException: field [objet] not found in [models.Inventaire][_idGetSet, taille]
+	at com.avaje.ebeaninternal.server.reflect.EnhanceBeanReflect.getFieldIndex(EnhanceBeanReflect.java:139) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.reflect.EnhanceBeanReflect.getGetter(EnhanceBeanReflect.java:143) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.setBeanReflect(BeanDescriptorManager.java:1341) ~[avaje-ebeanorm.jar:na]
+	... 32 common frames omitted
+
+2014-02-12 22:17:21,775 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6h8m8hf41 - Internal server error, for (GET) [/] ->
+
+play.api.UnexpectedException: Unexpected exception[PersistenceException: Error with [models.Inventaire] I believe it is not enhanced but it's superClass [class play.db.ebean.Model] is? (You are not allowed to mix enhancement in a single inheritance hierarchy)]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:148) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+Caused by: javax.persistence.PersistenceException: Error with [models.Inventaire] I believe it is not enhanced but it's superClass [class play.db.ebean.Model] is? (You are not allowed to mix enhancement in a single inheritance hierarchy)
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.setBeanReflect(BeanDescriptorManager.java:1357) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.createByteCode(BeanDescriptorManager.java:1154) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readDeployAssociations(BeanDescriptorManager.java:1070) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readEntityDeploymentAssociations(BeanDescriptorManager.java:547) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.deploy(BeanDescriptorManager.java:237) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.InternalConfiguration.<init>(InternalConfiguration.java:114) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:204) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:65) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:58) ~[avaje-ebeanorm.jar:na]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:79) ~[play-java-ebean_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10.jar:2.2.1]
+	... 14 common frames omitted
+Caused by: java.lang.IllegalArgumentException: field [objet] not found in [models.Inventaire][_idGetSet, taille]
+	at com.avaje.ebeaninternal.server.reflect.EnhanceBeanReflect.getFieldIndex(EnhanceBeanReflect.java:139) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.reflect.EnhanceBeanReflect.getGetter(EnhanceBeanReflect.java:143) ~[avaje-ebeanorm.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.setBeanReflect(BeanDescriptorManager.java:1341) ~[avaje-ebeanorm.jar:na]
+	... 32 common frames omitted
+
+2014-02-12 22:18:08,344 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:mem:default
+
+2014-02-12 22:18:10,060 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6h8m8k8f7 - Internal server error, for (GET) [/] ->
+
+play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1$$anonfun$apply$1.apply$mcV$sp(Evolutions.scala:486) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.evolutions.EvolutionsPlugin.withLock(Evolutions.scala:507) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1.apply(Evolutions.scala:461) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1.apply(Evolutions.scala:459) ~[play-jdbc_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library.jar:na]
+	at play.api.db.evolutions.EvolutionsPlugin.onStart(Evolutions.scala:459) ~[play-jdbc_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10.jar:2.2.1]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.2.1]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+
+2014-02-12 22:18:25,377 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:mem:default
+
+2014-02-12 22:18:26,546 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-02-12 22:19:00,510 - [ERROR] - from play in play-internal-execution-context-2 
+Cannot invoke the action, eventually got an error: java.lang.NullPointerException
+
+2014-02-12 22:19:00,568 - [ERROR] - from application in play-internal-execution-context-2 
+
+
+! @6h8m8n57d - Internal server error, for (GET) [/inventaire] ->
+
+play.api.Application$$anon$1: Execution exception[[NullPointerException: null]]
+	at play.api.Application$class.handleError(Application.scala:293) ~[play_2.10.jar:2.2.1]
+	at play.api.DefaultApplication.handleError(Application.scala:399) [play_2.10.jar:2.2.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$2$$anonfun$applyOrElse$3.apply(PlayDefaultUpstreamHandler.scala:261) [play_2.10.jar:2.2.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$2$$anonfun$applyOrElse$3.apply(PlayDefaultUpstreamHandler.scala:261) [play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) [scala-library.jar:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$2.applyOrElse(PlayDefaultUpstreamHandler.scala:261) [play_2.10.jar:2.2.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$2.applyOrElse(PlayDefaultUpstreamHandler.scala:257) [play_2.10.jar:2.2.1]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:33) [scala-library.jar:na]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:411) [scala-library.jar:na]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:408) [scala-library.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:29) [scala-library.jar:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:43) [play-iteratees_2.10.jar:2.2.1]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:37) [scala-library.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:133) [scala-library.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:58) [scala-library.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:254) [scala-library.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:249) [scala-library.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:29) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library.jar:na]
+Caused by: java.lang.NullPointerException: null
+	at controllers.Application.inventaire(Application.java:29) ~[na:na]
+	at Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.apply(routes_routing.scala:61) ~[na:na]
+	at Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.apply(routes_routing.scala:61) ~[na:na]
+	at play.core.Router$HandlerInvoker$$anon$7$$anon$2.invocation(Router.scala:183) ~[play_2.10.jar:2.2.1]
+	at play.core.Router$Routes$$anon$1.invocation(Router.scala:377) ~[play_2.10.jar:2.2.1]
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:56) ~[play_2.10.jar:2.2.1]
+	at play.core.j.JavaAction$$anon$3.apply(JavaAction.scala:91) ~[play_2.10.jar:2.2.1]
+	at play.core.j.JavaAction$$anon$3.apply(JavaAction.scala:90) ~[play_2.10.jar:2.2.1]
+	at play.core.j.FPromiseHelper$$anonfun$flatMap$1.apply(FPromiseHelper.scala:82) ~[play_2.10.jar:2.2.1]
+	at play.core.j.FPromiseHelper$$anonfun$flatMap$1.apply(FPromiseHelper.scala:82) ~[play_2.10.jar:2.2.1]
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:278) ~[scala-library.jar:na]
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:274) ~[scala-library.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:29) [scala-library.jar:na]
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:37) ~[play_2.10.jar:2.2.1]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:42) ~[akka-actor_2.10.jar:2.2.0]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:386) ~[akka-actor_2.10.jar:2.2.0]
+	... 4 common frames omitted
+
+2014-02-12 22:19:25,487 - [INFO] - from play in play-internal-execution-context-2 
+database [default] connected at jdbc:h2:mem:default
+
+2014-02-12 22:19:26,618 - [INFO] - from play in play-internal-execution-context-2 
+Application started (Dev)
+
+2014-02-12 22:20:01,075 - [ERROR] - from application in New I/O worker #3 
+
+
+! @6h8m90gkm - Internal server error, for (GET) [/inventaire] ->
+
+play.PlayExceptions$CompilationException: Compilation error[value nom is not a member of models.Personne]
 	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
 	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
 	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
@@ -134,12 +1474,12 @@ play.PlayExceptions$CompilationException: Compilation error[Cannot use a method 
 	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
 	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
 
-2014-02-12 18:35:13,878 - [ERROR] - from application in New I/O worker #1 
+2014-02-12 22:22:08,313 - [ERROR] - from application in New I/O worker #3 
 
 
-! @6h8l5d78e - Internal server error, for (GET) [/] ->
+! @6h8m97n08 - Internal server error, for (GET) [/inventaire] ->
 
-play.PlayExceptions$CompilationException: Compilation error[error: cannot find symbol]
+play.PlayExceptions$CompilationException: Compilation error[variable nom in class Personne cannot be accessed in models.Personne]
 	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
 	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
 	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
@@ -160,29 +1500,82 @@ play.PlayExceptions$CompilationException: Compilation error[error: cannot find s
 	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
 	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
 
-2014-02-12 18:40:56,146 - [ERROR] - from application in New I/O worker #2 
+2014-02-12 22:22:30,124 - [INFO] - from play in play-internal-execution-context-2 
+database [default] connected at jdbc:h2:mem:default
+
+2014-02-12 22:22:30,758 - [INFO] - from play in play-internal-execution-context-2 
+Application started (Dev)
+
+2014-02-12 22:22:30,788 - [ERROR] - from play in play-internal-execution-context-2 
+Cannot invoke the action, eventually got an error: java.lang.NullPointerException
+
+2014-02-12 22:22:30,798 - [ERROR] - from application in play-internal-execution-context-2 
 
 
-! @6h8l66jge - Internal server error, for (GET) [/] ->
+! @6h8m99477 - Internal server error, for (GET) [/inventaire] ->
 
-play.PlayExceptions$CompilationException: Compilation error[not found: type Model]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:304) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:298) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:298) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:296) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library.jar:na]
-	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:296) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.2.1]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.1]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+play.api.Application$$anon$1: Execution exception[[NullPointerException: null]]
+	at play.api.Application$class.handleError(Application.scala:293) ~[play_2.10.jar:2.2.1]
+	at play.api.DefaultApplication.handleError(Application.scala:399) [play_2.10.jar:2.2.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$2$$anonfun$applyOrElse$3.apply(PlayDefaultUpstreamHandler.scala:261) [play_2.10.jar:2.2.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$2$$anonfun$applyOrElse$3.apply(PlayDefaultUpstreamHandler.scala:261) [play_2.10.jar:2.2.1]
+	at scala.Option.map(Option.scala:145) [scala-library.jar:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$2.applyOrElse(PlayDefaultUpstreamHandler.scala:261) [play_2.10.jar:2.2.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$2.applyOrElse(PlayDefaultUpstreamHandler.scala:257) [play_2.10.jar:2.2.1]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:33) [scala-library.jar:na]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:411) [scala-library.jar:na]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:408) [scala-library.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:29) [scala-library.jar:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:43) [play-iteratees_2.10.jar:2.2.1]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:37) [scala-library.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:133) [scala-library.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:58) [scala-library.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:254) [scala-library.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:249) [scala-library.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:29) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library.jar:na]
+Caused by: java.lang.NullPointerException: null
+	at views.html.inventaire$.apply(inventaire.template.scala:30) ~[na:na]
+	at views.html.inventaire$.render(inventaire.template.scala:33) ~[na:na]
+	at views.html.inventaire.render(inventaire.template.scala) ~[na:na]
+	at controllers.Application.inventaire(Application.java:33) ~[na:na]
+	at Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.apply(routes_routing.scala:61) ~[na:na]
+	at Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.apply(routes_routing.scala:61) ~[na:na]
+	at play.core.Router$HandlerInvoker$$anon$7$$anon$2.invocation(Router.scala:183) ~[play_2.10.jar:2.2.1]
+	at play.core.Router$Routes$$anon$1.invocation(Router.scala:377) ~[play_2.10.jar:2.2.1]
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:56) ~[play_2.10.jar:2.2.1]
+	at play.core.j.JavaAction$$anon$3.apply(JavaAction.scala:91) ~[play_2.10.jar:2.2.1]
+	at play.core.j.JavaAction$$anon$3.apply(JavaAction.scala:90) ~[play_2.10.jar:2.2.1]
+	at play.core.j.FPromiseHelper$$anonfun$flatMap$1.apply(FPromiseHelper.scala:82) ~[play_2.10.jar:2.2.1]
+	at play.core.j.FPromiseHelper$$anonfun$flatMap$1.apply(FPromiseHelper.scala:82) ~[play_2.10.jar:2.2.1]
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:278) ~[scala-library.jar:na]
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:274) ~[scala-library.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:29) [scala-library.jar:na]
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:37) ~[play_2.10.jar:2.2.1]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:42) ~[akka-actor_2.10.jar:2.2.0]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:386) ~[akka-actor_2.10.jar:2.2.0]
+	... 4 common frames omitted
+
+2014-02-12 22:23:00,877 - [INFO] - from play in play-internal-execution-context-2 
+database [default] connected at jdbc:h2:mem:default
+
+2014-02-12 22:23:01,494 - [INFO] - from play in play-internal-execution-context-2 
+Application started (Dev)
+
+2014-02-12 22:23:55,799 - [INFO] - from play in play-internal-execution-context-2 
+database [default] connected at jdbc:h2:mem:default
+
+2014-02-12 22:23:56,423 - [INFO] - from play in play-internal-execution-context-2 
+Application started (Dev)
+
+2014-02-12 22:24:47,817 - [INFO] - from play in play-internal-execution-context-2 
+database [default] connected at jdbc:h2:mem:default
+
+2014-02-12 22:24:48,760 - [INFO] - from play in play-internal-execution-context-2 
+Application started (Dev)
 

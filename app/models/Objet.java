@@ -1,11 +1,11 @@
 package models;
 import javax.persistence.*;
  
-import play.db.jpa.*;
+import play.db.ebean.*;
 
 @Entity
 public class Objet extends Model{
-    
+	
     private String nom;
 	private int prix;
 	private boolean equipable;

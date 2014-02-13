@@ -1,6 +1,8 @@
+package models;
+
 import javax.persistence.*;
  
-import play.db.jpa.*;
+import play.db.ebean.*;
 
 @Entity
 public class Effet{

@@ -1,57 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite hostname="info22-06" name="IntegrationTest" tests="1" errors="0" failures="1" time="0.016">
+<testsuite hostname="Darklev-PC" name="IntegrationTest" tests="1" errors="0" failures="1" time="0.132">
         <properties>
-      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64"/><property name="java.vm.version" value="23.7-b01"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/home/bochant/play/samples/java/objman"/><property name="java.runtime.version" value="1.7.0_25-b30"/><property name="sbt.boot.properties" value="../../../framework/sbt/sbt.boot.properties"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="/tmp"/><property name="line.separator" value="
-"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Linux"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="51.0"/><property name="play.home" value="../../../framework"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="3.8.0-35-generic"/><property name="user.home" value="/home/bochant"/><property name="user.timezone" value="Europe/Paris"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.7"/><property name="java.class.path" value="../../../framework/sbt/sbt-launch.jar"/><property name="user.name" value="bochant"/><property name="jline.shutdownhook" value="false"/><property name="play.version" value="2.2.1"/><property name="java.vm.specification.version" value="1.7"/><property name="sun.java.command" value="../../../framework/sbt/sbt-launch.jar test"/><property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.7.0_25"/><property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/><property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.cpu.isalist" value=""/>
+      <property name="jline.esc.timeout" value="0"/><property name="sbt.ivy.home" value="K:\play\play-2.2.1\framework\..\repository"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jre7\bin"/><property name="java.vm.version" value="24.45-b08"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=";"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="FR"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="C:\Users\Darklev\Desktop\Objects manager\projet"/><property name="java.runtime.version" value="1.7.0_45-b18"/><property name="sbt.boot.properties" value="file:///K:/play/play-2.2.1/framework/sbt/sbt.boot.properties"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="java.endorsed.dirs" value="C:\Program Files\Java\jre7\lib\endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="C:\Users\Darklev\AppData\Local\Temp\"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="os.name" value="Windows 7"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="java.library.path" value="C:\Windows\system32;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\wamp\bin\php\php5.3.5 ;C:\msys\1.0\bin;C:\mingw\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;C:\MinGW;C:\MinGW\bin;C:\msys\1.0\bin;C:\Program Files (x86)\Java\jre6\bin;C:\Python32\;C:\Python27;C:\Python32\Lib\site-packages\django\bin;C:\Users\Darklev\AppData\Roaming\npm;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;K:\play\play-2.2.1\;."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="51.0"/><property name="play.home" value="K:\play\play-2.2.1\framework\."/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="6.1"/><property name="user.home" value="C:\Users\Darklev"/><property name="user.timezone" value="Europe/Paris"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.7"/><property name="input.encoding" value="Cp1252"/><property name="java.class.path" value="K:\play\play-2.2.1\framework\sbt\sbt-launch.jar"/><property name="user.name" value="Darklev"/><property name="jline.shutdownhook" value="false"/><property name="play.version" value="2.2.1"/><property name="java.vm.specification.version" value="1.7"/><property name="sun.java.command" value="K:\play\play-2.2.1\framework\sbt\sbt-launch.jar test"/><property name="java.home" value="C:\Program Files\Java\jre7"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="fr"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.7.0_45"/><property name="java.ext.dirs" value="C:\Program Files\Java\jre7\lib\ext;C:\Windows\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/>
     </properties>
         <testcase classname="IntegrationTest" name="test" time="0.0">
-      <failure message="&lt;'&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;
-      Test
-    &lt;/title&gt;
-    &lt;link rel=&quot;stylesheet&quot; media=&quot;screen&quot; href=&quot;/assets/stylesheets/main.css&quot;/&gt;
-    &lt;link rel=&quot;shortcut icon&quot; type=&quot;image/png&quot; href=&quot;/assets/images/favicon.png&quot;/&gt;
-    &lt;script src=&quot;/assets/javascripts/jquery-1.9.0.min.js&quot; type=&quot;text/javascript&quot;&gt;
-    &lt;/script&gt;
-  &lt;/head&gt;
-  &lt;body style=&quot;zoom: 1;&quot;&gt;
-    &lt;h1&gt;
-      Test
-    &lt;/h1&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-'&gt; should contain the String:&lt;'Your new application is ready.'&gt;" type="sbt.ForkMain$ForkError">
-              sbt.ForkMain$ForkError: &lt;'&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;
-      Test
-    &lt;/title&gt;
-    &lt;link rel=&quot;stylesheet&quot; media=&quot;screen&quot; href=&quot;/assets/stylesheets/main.css&quot;/&gt;
-    &lt;link rel=&quot;shortcut icon&quot; type=&quot;image/png&quot; href=&quot;/assets/images/favicon.png&quot;/&gt;
-    &lt;script src=&quot;/assets/javascripts/jquery-1.9.0.min.js&quot; type=&quot;text/javascript&quot;&gt;
-    &lt;/script&gt;
-  &lt;/head&gt;
-  &lt;body style=&quot;zoom: 1;&quot;&gt;
-    &lt;h1&gt;
-      Test
-    &lt;/h1&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-'&gt; should contain the String:&lt;'Your new application is ready.'&gt;
-	at org.fest.assertions.Fail.failure(Fail.java:228)
-	at org.fest.assertions.Assert.failure(Assert.java:149)
-	at org.fest.assertions.StringAssert.contains(StringAssert.java:73)
-	at IntegrationTest$1.invoke(IntegrationTest.java:23)
-	at IntegrationTest$1.invoke(IntegrationTest.java:20)
-	at play.test.Helpers.running(Helpers.java:433)
+      <failure message="java.lang.RuntimeException: Error reading annotations for models.Inventaire" type="sbt.ForkMain$ForkError">
+              sbt.ForkMain$ForkError: java.lang.RuntimeException: Error reading annotations for models.Inventaire
+	at play.api.test.TestServer.start(Selenium.scala:146)
+	at play.test.Helpers.start(Helpers.java:401)
+	at play.test.Helpers.running(Helpers.java:430)
 	at IntegrationTest.test(IntegrationTest.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
@@ -83,6 +46,33 @@
 	at sbt.ForkMain$Run.runTests(ForkMain.java:187)
 	at sbt.ForkMain$Run.run(ForkMain.java:251)
 	at sbt.ForkMain.main(ForkMain.java:97)
+Caused by: sbt.ForkMain$ForkError: Error reading annotations for models.Inventaire
+	at com.avaje.ebeaninternal.server.deploy.parse.ReadAnnotations.readAssociations(ReadAnnotations.java:54)
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readDeployAssociations(BeanDescriptorManager.java:1048)
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readEntityDeploymentAssociations(BeanDescriptorManager.java:547)
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.deploy(BeanDescriptorManager.java:237)
+	at com.avaje.ebeaninternal.server.core.InternalConfiguration.&lt;init&gt;(InternalConfiguration.java:114)
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:204)
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:65)
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:58)
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:79)
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88)
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88)
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88)
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88)
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18)
+	at play.api.Play$.start(Play.scala:87)
+	at play.core.TestApplication.&lt;init&gt;(ApplicationProvider.scala:64)
+	at play.api.test.TestServer.start(Selenium.scala:142)
+	... 38 more
+Caused by: sbt.ForkMain$ForkError: Error with association to [class [Lmodels.Objet;] from [models.Inventaire.objet]. Is class [Lmodels.Objet; registered?
+	at com.avaje.ebeaninternal.server.deploy.parse.AnnotationAssocOnes.readManyToOne(AnnotationAssocOnes.java:165)
+	at com.avaje.ebeaninternal.server.deploy.parse.AnnotationAssocOnes.readAssocOne(AnnotationAssocOnes.java:63)
+	at com.avaje.ebeaninternal.server.deploy.parse.AnnotationAssocOnes.parse(AnnotationAssocOnes.java:54)
+	at com.avaje.ebeaninternal.server.deploy.parse.ReadAnnotations.readAssociations(ReadAnnotations.java:45)
+	... 56 more
 
             </failure>
     </testcase>
