@@ -61,11 +61,7 @@ public class Inventaire extends Model{
 		delObjet(i);
 		delObjet(j);
 		addObjet(tmp.getNom(),tmp.getPrix(),tmp.estEquipable(),j);
-<<<<<<< HEAD
 		*/
-=======
-		addObjet(tmp2.getNom(),tmp.getPrix(),tmp.estEquipable(),i);
->>>>>>> 25526f48bbf68f478c521787507d2ecbd5b75e3a
 		
 		Objet tmp = objet[i];
 		objet[i] = objet[j];

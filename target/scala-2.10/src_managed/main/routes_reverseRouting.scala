@@ -1,6 +1,6 @@
 // @SOURCE:/home/bochant/play/samples/java/objman/conf/routes
-// @HASH:ff89b37b295bf4cde230fa325d04b0e535c982ca
-// @DATE:Thu Feb 13 13:10:07 CET 2014
+// @HASH:6badf79d88de6520365fa0e180c7f460c9c5d8f8
+// @DATE:Thu Feb 13 14:23:28 CET 2014
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
