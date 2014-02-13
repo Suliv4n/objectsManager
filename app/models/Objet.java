@@ -6,6 +6,9 @@ import play.db.ebean.*;
 @Entity
 public class Objet extends Model{
 	
+	@Id
+	private int id;
+	
     private String nom;
 	private int prix;
 	private boolean equipable;
@@ -28,6 +31,7 @@ public class Objet extends Model{
     
     public Objet(String nom, int prix, boolean equipable)
     {
+		super();
 		this.nom=nom;
 		this.prix=prix;
 		this.equipable = equipable;
@@ -69,5 +73,10 @@ public class Objet extends Model{
 			}
 		}
 		return false;
+	}
+	
+	public String toString()
+	{
+		return nom;
 	}
 }

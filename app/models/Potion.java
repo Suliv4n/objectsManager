@@ -9,6 +9,8 @@ import play.db.ebean.*;
 @Inheritance
 public class Potion extends Objet{
 
+
+
 	@ManyToMany(mappedBy="effet", cascade=CascadeType.ALL)
 	private ArrayList<Effet> effets;
 	
