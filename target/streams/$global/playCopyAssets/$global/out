@@ -1,4 +1,7 @@
 [0m[[0mdebug[0m] [0mCopy play resource mappings: [0m
 [0m[[0mdebug[0m] [0m	(/home/bochant/play/samples/java/objman/public/stylesheets/main.css,/home/bochant/play/samples/java/objman/target/scala-2.10/classes/public/stylesheets/main.css)[0m
 [0m[[0mdebug[0m] [0m	(/home/bochant/play/samples/java/objman/public/javascripts/jquery-1.9.0.min.js,/home/bochant/play/samples/java/objman/target/scala-2.10/classes/public/javascripts/jquery-1.9.0.min.js)[0m
+[0m[[0mdebug[0m] [0m	(/home/bochant/play/samples/java/objman/public/images/liste.png,/home/bochant/play/samples/java/objman/target/scala-2.10/classes/public/images/liste.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/bochant/play/samples/java/objman/public/images/fond.png,/home/bochant/play/samples/java/objman/target/scala-2.10/classes/public/images/fond.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/bochant/play/samples/java/objman/public/images/fond2.jpg,/home/bochant/play/samples/java/objman/target/scala-2.10/classes/public/images/fond2.jpg)[0m
 [0m[[0mdebug[0m] [0m	(/home/bochant/play/samples/java/objman/public/images/favicon.png,/home/bochant/play/samples/java/objman/target/scala-2.10/classes/public/images/favicon.png)[0m

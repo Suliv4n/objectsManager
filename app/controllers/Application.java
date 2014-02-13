@@ -26,7 +26,7 @@ public class Application extends Controller {
 		if(personne == null)
 		{
 			test = "Nouveau personne";
-			personne  = new Personne("Draven",10);
+			personne  = new Personne("Sulivan",10);
 			ArrayList<Effet> effets = new ArrayList<Effet>();
 			effets.add(new Effet(Effet.SOIN,10,0));
 			personne.getInventaire().addObjet(new Potion("Potion de soin",10,effets),0);
