@@ -55,10 +55,17 @@ public class Inventaire extends Model{
 	{
 		/*
 		Objet tmp = new Objet(objet[i].getNom(),objet[i].getPrix(),objet[i].estEquipable());
+		Objet tmp2;
+		if(objet[j]==null)
+			tmp2=new Objet(objet[j].getNom(),objet[j].getPrix(),objet[j].estEquipable());
 		delObjet(i);
 		delObjet(j);
 		addObjet(tmp.getNom(),tmp.getPrix(),tmp.estEquipable(),j);
+<<<<<<< HEAD
 		*/
+=======
+		addObjet(tmp2.getNom(),tmp.getPrix(),tmp.estEquipable(),i);
+>>>>>>> 25526f48bbf68f478c521787507d2ecbd5b75e3a
 		
 		Objet tmp = objet[i];
 		objet[i] = objet[j];
